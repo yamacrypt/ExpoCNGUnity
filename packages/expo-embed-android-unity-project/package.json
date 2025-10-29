@@ -1,0 +1,9 @@
+{
+  "name": "expo-embed-android-unity-project",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "peerDependencies": {
+    "@expo/config-plugins": ">=8.0.0"
+  }
+}

@@ -39,7 +39,7 @@ yarn install
 ## モバイル開発フロー (Expo CNG)
 
 1. Expo 依存を追加・設定 → `app/app.config.ts` に反映
-2. ネイティブ差分は Config Plugin (`app/plugins/withUnityIntegration.ts`) に実装
+2. ネイティブ差分は Config Plugin (`expo-embed-android-unity-project`) に実装
 3. 初回は `yarn --cwd app expo prebuild --clean`
 4. 以降、変更時に `yarn --cwd app expo prebuild`
 5. `yarn --cwd app expo run:ios` / `run:android` (dev client)
@@ -51,12 +51,11 @@ yarn install
 
 ## Unity as a Library 連携 (Config Plugin)
 
-`app/plugins/withUnityIntegration.ts` が Expo Prebuild 時に以下を適用します。
+`expo-embed-android-unity-project` (本リポジトリ内 workspace) が Expo Prebuild 時に以下を適用します。
 
 - **Android**: `settings.gradle` に `unityLibrary` を include、`app/build.gradle` に `implementation project(':unityLibrary')`
-- **iOS**: `UnityFramework` の参照を Xcode プロジェクトへ追加、`AppDelegate` 初期化コードを挿入
 
-Unity 側で出力したライブラリのパスは `app/app.config.ts` のプラグイン設定で調整してください。
+Unity 側で出力したライブラリのパスは `app/app.config.ts` のプラグイン設定で調整してください。iOS 連携は未対応のため、必要になった段階で別途プラグインを追加してください。
 
 ## Web (Unity WebGL)
 
@@ -84,8 +83,8 @@ Unity 側で出力したライブラリのパスは `app/app.config.ts` のプ�
 
 | ターゲット | 出力手順 | 配置先 |
 | ---------- | -------- | ------ |
-| iOS        | Unity as a Library で `UnityExport` 生成 | `app/plugins/withUnityIntegration.ts` の `ios.unityProjectPath` に合わせて配置 |
-| Android    | Unity as a Library (Gradle) | `app/plugins/withUnityIntegration.ts` の `android.unityProjectPath` に合わせて配置 |
+| iOS        | Unity as a Library で `UnityExport` 生成 | 今後の対応予定 |
+| Android    | Unity as a Library (Gradle) | `app/app.config.ts` の `expo-embed-android-unity-project` 設定に合わせて配置 |
 | WebGL      | Build Settings → WebGL Export | `web/public/unity/` |
 
 ## よくあるポイント

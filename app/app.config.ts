@@ -25,10 +25,7 @@ const createConfig = ({ config }: ConfigContext): ExpoConfig => ({
   assetBundlePatterns: ['**/*'],
   ios: {
     supportsTablet: true,
-    bundleIdentifier: BUNDLE_ID,
-    infoPlist: {
-      UnityFramework: 'Configured via Config Plugin'
-    }
+    bundleIdentifier: BUNDLE_ID
   },
   android: {
     package: PACKAGE_NAME,
@@ -44,14 +41,9 @@ const createConfig = ({ config }: ConfigContext): ExpoConfig => ({
   plugins: [
     'expo-dev-client',
     [
-      './plugins/withUnityIntegration',
+      'expo-embed-android-unity-project',
       {
-        android: {
-          unityProjectPath: '../UnityExport/unityLibrary'
-        },
-        ios: {
-          unityProjectPath: '../UnityExport/Unity-iPhone.xcodeproj'
-        }
+        unityLibraryPath: '../UnityExport/unityLibrary'
       }
     ]
   ],
