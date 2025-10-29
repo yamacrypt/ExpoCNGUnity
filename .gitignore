@@ -1,11 +1,7 @@
-# Node/Yarn
+# Node
 node_modules/
-.yarn/*
-!.yarn/releases
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/versions
 .pnp.*
+.pnpm-store/
 
 # Expo CNG generated native projects
 /app/ios
@@ -18,8 +14,9 @@ web-build/
 *.log
 .env
 
-# Yarn
+# Package manager logs
 yarn-error.log
+pnpm-debug.log*
 
 # macOS
 .DS_Store

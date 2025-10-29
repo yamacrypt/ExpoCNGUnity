@@ -9,9 +9,10 @@ services:
     volumes:
       - .:/workspace
       - android-gradle-cache:/root/.gradle
-      - yarn-cache:/root/.yarn
+      - pnpm-store:/root/.local/share/pnpm/store
     environment:
-      - ADB_SERVER_SOCKET=tcp:host.docker.internal:5037
+      - ANDROID_ADB_SERVER_ADDRESS=host.docker.internal
+      - ANDROID_ADB_SERVER_PORT=5037
       - ANDROID_SDK_ROOT=/opt/android-sdk
       - ANDROID_HOME=/opt/android-sdk
       - JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
@@ -26,12 +27,12 @@ services:
     working_dir: /workspace
     volumes:
       - .:/workspace
-      - yarn-cache:/root/.yarn
+      - pnpm-store:/root/.local/share/pnpm/store
     ports:
       - "5173:5173"
     command: >-
-      bash -lc "yarn install --mode=skip-build && yarn workspace @app/web dev --host 0.0.0.0 --port 5173"
+      bash -lc "pnpm install --ignore-scripts && pnpm --filter expo-cng-unity-web run dev -- --host 0.0.0.0 --port 5173"
 
 volumes:
   android-gradle-cache:
-  yarn-cache:
+  pnpm-store:

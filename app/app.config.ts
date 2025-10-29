@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { ConfigContext, ExpoConfig } from '@expo/config';
+import { ConfigContext, ExpoConfig } from 'expo/config';
 
 const APP_NAME = 'Expo CNG Unity';
 const SLUG = 'expo-cng-unity';
@@ -43,18 +43,13 @@ const createConfig = ({ config }: ConfigContext): ExpoConfig => ({
     [
       'expo-embed-android-unity-project',
       {
-        unityLibraryPath: '../UnityExport/unityLibrary'
+        unityLibraryPath: '../unity/build/android'
       }
-    ]
+    ],
   ],
   extra: {
-    apiUrl: process.env.EXPO_PUBLIC_API_URL ?? '',
-    eas: {
-      projectId: process.env.EAS_PROJECT_ID ?? ''
-    }
   },
   updates: {
-    url: process.env.EAS_UPDATE_URL ?? undefined
   }
 });
 
