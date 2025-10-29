@@ -15,14 +15,14 @@
 │   └── common/          # 共有 TypeScript ロジック (workspace 連携)
 ├── unity/               # Unity プロジェクト本体 (Library/WebGL Export)
 ├── .github/workflows/   # Lint / Typecheck / Web build / Prebuild CI
-├── package.json         # Yarn Berry ワークスペース設定
-└── .yarn/               # Yarn 4 (Berry) リリース
+├── package.json         # pnpm ワークスペース設定
+└── pnpm-workspace.yaml  # pnpm ワークスペース定義
 ```
 
 ## 前提
 
 - Node.js 20.19.0 (`.nvmrc`, `.node-version` で固定)
-- Corepack + Yarn Berry (Yarn 4)
+- Corepack + pnpm 9
 - タイムゾーン: Asia/Tokyo
 - Expo Dev Client 運用
 - `app/ios`, `app/android` は Git 管理しない (expo prebuild で再生成)
@@ -31,7 +31,7 @@
 
 ```bash
 corepack enable
-yarn install
+pnpm install
 ```
 
 必要な環境変数は `app/.env.example` を参照して `.env` を作成し、`app.config.ts` の `extra` から取得します。
@@ -51,16 +51,16 @@ docker compose run --rm mobile bash
 docker compose up web
 ```
 
-`mobile` サービスは `adb` と接続できるように `host.docker.internal` を解決し、`web` サービスは Vite の dev サーバをポート `5173` でホストします。Gradle と Yarn のキャッシュはボリュームに永続化されます。
+`mobile` サービスは `adb` と接続できるように `host.docker.internal` を解決し、`web` サービスは Vite の dev サーバをポート `5173` でホストします。Gradle と pnpm ストアはボリュームに永続化されます。
 
 ## モバイル開発フロー (Expo CNG)
 
 1. Expo 依存を追加・設定 → `app/app.config.ts` に反映
 2. ネイティブ差分は Config Plugin (`expo-embed-android-unity-project`) に実装
-3. 初回は `yarn --cwd app expo prebuild --clean`
-4. 以降、変更時に `yarn --cwd app expo prebuild`
-5. `yarn --cwd app expo run:ios` / `run:android` (dev client)
-6. `yarn --cwd app expo start` で Metro を起動
+3. 初回は `pnpm --filter expo-cng-unity-app run prebuild -- --clean`
+4. 以降、変更時に `pnpm --filter expo-cng-unity-app run prebuild`
+5. `pnpm --filter expo-cng-unity-app run ios` / `run android` (dev client)
+6. `pnpm --filter expo-cng-unity-app run start` で Metro を起動
 
 ### UnityBridge API
 
@@ -79,7 +79,7 @@ Unity 側で出力したライブラリのパスは `app/app.config.ts` のプ�
 - `web/` は Vite + React + TypeScript
 - `react-unity-webgl` を利用し、Start ボタン押下時に WebGL ビルドを遅延ロード
 - Unity WebGL Export は `web/public/unity/` に配置 (例: `Build.loader.js`, `Build.data`, `Build.framework.js`, `Build.wasm`)
-- 開発サーバ: `yarn --cwd web dev`
+- 開発サーバ: `pnpm --filter expo-cng-unity-web run dev`
 
 ## 共有ロジック
 
@@ -90,11 +90,11 @@ Unity 側で出力したライブラリのパスは `app/app.config.ts` のプ�
 
 `.github/workflows/ci.yml` で以下を検証します。
 
-- `yarn install --immutable`
-- `yarn lint`
-- `yarn typecheck`
-- `yarn build:web`
-- `yarn prebuild` (Expo prebuild の健全性チェック)
+- `pnpm install`
+- `pnpm lint`
+- `pnpm typecheck`
+- `pnpm build:web`
+- `pnpm prebuild` (Expo prebuild の健全性チェック)
 
 ## Unity 出力の配置
 

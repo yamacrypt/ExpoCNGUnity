@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM node:18-bullseye
+FROM node:20-bullseye
 
 ARG DEBIAN_FRONTEND=noninteractive
 ENV ANDROID_SDK_ROOT=/opt/android-sdk
@@ -33,7 +33,7 @@ RUN mkdir -p "$ANDROID_SDK_ROOT"/cmdline-tools \
 ENV PATH="$PATH:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/emulator:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin"
 
 RUN corepack enable \
-  && corepack prepare yarn@stable --activate
+  && corepack prepare pnpm@9.7.1 --activate
 
 WORKDIR /workspace
 
