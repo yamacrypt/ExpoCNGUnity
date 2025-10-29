@@ -62,10 +62,6 @@ docker compose up web
 5. `pnpm --filter expo-cng-unity-app run ios` / `run android` (dev client)
 6. `pnpm --filter expo-cng-unity-app run start` で Metro を起動
 
-### UnityBridge API
-
-`app/src/bridge/UnityBridge.ts` に JS 側 API (`show`, `postMessage`) を定義。Unity ランタイム未接続でもダミー画面で遷移動作を確認できます。
-
 ## Unity as a Library 連携 (Config Plugin)
 
 `expo-embed-android-unity-project` (本リポジトリ内 workspace) が Expo Prebuild 時に以下を適用します。

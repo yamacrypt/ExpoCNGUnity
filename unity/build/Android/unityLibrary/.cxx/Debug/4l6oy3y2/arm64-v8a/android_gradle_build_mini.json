@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "/workspace/unity/build/Android/unityLibrary/src/main/cpp/CMakeLists.txt",
+    "/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/opt/android-sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/workspace/unity/build/Android/unityLibrary/.cxx/Debug/4l6oy3y2/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/opt/android-sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/workspace/unity/build/Android/unityLibrary/.cxx/Debug/4l6oy3y2/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "game::@d02bb112ea9f9c2ed29f": {
+      "artifactName": "game",
+      "abi": "arm64-v8a",
+      "output": "/workspace/unity/build/Android/unityLibrary/build/intermediates/cxx/Debug/4l6oy3y2/obj/arm64-v8a/libgame.so",
+      "runtimeFiles": []
+    }
+  }
+}

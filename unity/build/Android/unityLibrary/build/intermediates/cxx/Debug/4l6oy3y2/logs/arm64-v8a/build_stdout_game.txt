@@ -1,0 +1,2 @@
+ninja: Entering directory `/workspace/unity/build/Android/unityLibrary/.cxx/Debug/4l6oy3y2/arm64-v8a'
+[1/1] Linking CXX shared library /workspace/unity/build/Android/unityLibrary/build/intermediates/cxx/Debug/4l6oy3y2/obj/arm64-v8a/libgame.so

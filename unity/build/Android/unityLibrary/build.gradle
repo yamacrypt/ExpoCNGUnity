@@ -1,6 +1,18 @@
 apply plugin: 'com.android.library'
 apply from: '../shared/keepUnitySymbols.gradle'
+
+ext {
+  unity = [
+    // 環境変数 ANDROID_NDK／ANDROID_NDK_HOME があれば優先
+    androidNdkPath: (System.getenv("ANDROID_NDK")
+                  ?: System.getenv("ANDROID_NDK_HOME")
+                  // 無ければ Unity が差し込むプレースホルダを使う
+                  ?: "C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK")
+  ]
+}
+
 apply from: '../shared/common.gradle'
+
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -8,14 +20,19 @@ dependencies {
     implementation 'androidx.core:core:1.9.0'
     implementation 'androidx.games:games-activity:3.0.5'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
 }
 
 android {
     namespace "com.unity3d.player"
-    ndkPath "C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
+    // ndkPath は AGP8 では非推奨。Unity が挿入する場合は残っていてもビルドは通るが、
+    // 可能なら削除し ndkVersion のみ使用推奨。
+    // ndkPath "C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
     ndkVersion "27.2.12479018"
+
     compileSdk 36
-    buildToolsVersion = "36.0.0"
+    // buildToolsVersion は AGP8 では原則不要
+    // buildToolsVersion = "36.0.0"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
@@ -23,21 +40,29 @@ android {
     }
 
     defaultConfig {
-        consumerProguardFiles "proguard-unity.txt"
-        versionName "0.1.0"
         minSdk 23
         targetSdk 36
-        versionCode 1
-
         ndk {
-            abiFilters "arm64-v8a"
-            debugSymbolLevel "none"
+            abiFilters 'arm64-v8a'
+            debugSymbolLevel 'none'
         }
-
+        versionCode 1
+        versionName '0.1.0'
+        consumerProguardFiles 'proguard-unity.txt'
         externalNativeBuild {
             cmake {
                 arguments "-DANDROID_STL=c++_shared", "-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON"
             }
+        }
+
+    }
+
+    // ★ 追加：StreamingAssets を assets に載せる扱いに統一
+    sourceSets {
+        main {
+            // Unity のエクスポートは最終的に src/main/assets 配下に展開される想定
+            // ここを assets として解決させれば OK
+            assets.srcDirs += [ file("$projectDir/src/main/assets") ]
         }
     }
 
@@ -45,27 +70,21 @@ android {
         abortOnError false
     }
 
+    // ★ 修正：AGP8 非対応の unityStreamingAssets 参照を削除
     androidResources {
+        // noCompress は Unity が差し込む BUILTIN_NOCOMPRESS のみを採用（必要十分）
+        // 例: ["\\.ress", "\\.resource", "\\.obb"] などが実体化される
+        noCompress += ['.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp']
+
+        // ignoreAssetsPattern はそのままで OK（AGP8 対応の DSL）
         ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
-        noCompress = ['.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp'] + unityStreamingAssets.tokenize(', ')
     }
 
     packaging {
         jniLibs {
-            useLegacyPackaging true
+                useLegacyPackaging true
         }
     }
-}
-
-
-android.externalNativeBuild {
-    cmake {
-        version "3.22.1"
-        path "src/main/cpp/CMakeLists.txt"
-    }
-}
-android.buildFeatures {
-    prefab true
 }
 
 android {
@@ -200,4 +219,16 @@ def execCommand(String workDir, List<String> command, Map<String, String> env = 
         error.append("Command Line:\n${command.join(' ')}\n");
         throw new GradleException(error.toString())
     }
-}
+}
+
+
+android.externalNativeBuild {
+    cmake {
+        version "3.22.1"
+        path "src/main/cpp/CMakeLists.txt"
+    }
+}
+android.buildFeatures {
+    prefab true
+}
+

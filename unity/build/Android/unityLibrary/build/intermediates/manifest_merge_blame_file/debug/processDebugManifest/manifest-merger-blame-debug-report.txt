@@ -1,0 +1,225 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk android:minSdkVersion="23" />
+7
+8    <uses-permission android:name="android.permission.INTERNET" />
+8-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:3:3-65
+8-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:3:20-62
+9
+10    <uses-feature android:glEsVersion="0x00030000" />
+10-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:4:3-52
+10-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:4:17-49
+11    <uses-feature
+11-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:5:3-91
+12        android:name="android.hardware.vulkan.version"
+12-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:5:17-63
+13        android:required="false" />
+13-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:5:64-88
+14    <uses-feature
+14-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:6:3-88
+15        android:name="android.hardware.touchscreen"
+15-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:6:17-60
+16        android:required="false" />
+16-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:6:61-85
+17    <uses-feature
+17-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:7:3-99
+18        android:name="android.hardware.touchscreen.multitouch"
+18-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:7:17-71
+19        android:required="false" />
+19-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:7:72-96
+20    <uses-feature
+20-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:8:3-108
+21        android:name="android.hardware.touchscreen.multitouch.distinct"
+21-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:8:17-80
+22        android:required="false" />
+22-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:8:81-105
+23
+24    <application
+24-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:9:3-40:17
+25        android:appCategory="game"
+25-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:9:16-42
+26        android:enableOnBackInvokedCallback="true"
+26-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:9:43-85
+27        android:extractNativeLibs="true" >
+27-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:9:86-118
+28        <meta-data
+28-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:10:5-69
+29            android:name="unity.splash-mode"
+29-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:10:16-48
+30            android:value="0" />
+30-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:10:49-66
+31        <meta-data
+31-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:11:5-74
+32            android:name="unity.splash-enable"
+32-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:11:16-50
+33            android:value="True" />
+33-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:11:51-71
+34        <meta-data
+34-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:12:5-78
+35            android:name="unity.launch-fullscreen"
+35-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:12:16-54
+36            android:value="True" />
+36-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:12:55-75
+37        <meta-data
+37-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:13:5-84
+38            android:name="unity.render-outside-safearea"
+38-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:13:16-60
+39            android:value="True" />
+39-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:13:61-81
+40        <meta-data
+40-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:14:5-81
+41            android:name="notch.config"
+41-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:14:16-43
+42            android:value="portrait|landscape" />
+42-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:14:44-78
+43        <meta-data
+43-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:15:5-84
+44            android:name="unity.auto-report-fully-drawn"
+44-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:15:16-60
+45            android:value="true" />
+45-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:15:61-81
+46        <meta-data
+46-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:16:5-78
+47            android:name="unity.strip-engine-code"
+47-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:16:16-54
+48            android:value="true" />
+48-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:16:55-75
+49        <meta-data
+49-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:17:5-80
+50            android:name="unity.auto-set-game-state"
+50-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:17:16-56
+51            android:value="true" />
+51-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:17:57-77
+52
+53        <activity
+53-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:18:5-27:16
+54            android:name="com.unity3d.player.UnityPlayerActivity"
+54-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:18:313-366
+55            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+55-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:18:15-196
+56            android:enabled="false"
+56-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:18:197-220
+57            android:exported="true"
+57-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:18:221-244
+58            android:hardwareAccelerated="false"
+58-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:18:245-280
+59            android:launchMode="singleTask"
+59-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:18:281-312
+60            android:resizeableActivity="true"
+60-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:18:367-400
+61            android:screenOrientation="fullUser"
+61-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:18:401-437
+62            android:theme="@style/UnityThemeSelector" >
+62-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:18:438-479
+63            <intent-filter>
+63-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:19:7-22:23
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:20:9-69
+64-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:20:19-66
+65
+66                <action android:name="android.intent.action.MAIN" />
+66-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:21:9-61
+66-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:21:17-58
+67            </intent-filter>
+68
+69            <meta-data
+69-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:23:7-82
+70                android:name="unityplayer.UnityActivity"
+70-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:23:18-58
+71                android:value="true" />
+71-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:23:59-79
+72            <meta-data
+72-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:24:7-130
+73                android:name="WindowManagerPreference:FreeformWindowSize"
+73-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:24:18-75
+74                android:value="@string/FreeformWindowSize_maximize" />
+74-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:24:76-127
+75            <meta-data
+75-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:25:7-145
+76                android:name="WindowManagerPreference:FreeformWindowOrientation"
+76-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:25:18-82
+77                android:value="@string/FreeformWindowOrientation_landscape" />
+77-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:25:83-142
+78
+79            <layout
+79-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:26:7-68
+80                android:minHeight="300px"
+80-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:26:15-40
+81                android:minWidth="400px" />
+81-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:26:41-65
+82        </activity>
+83        <activity
+83-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:28:5-39:16
+84            android:name="com.unity3d.player.UnityPlayerGameActivity"
+84-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:28:312-369
+85            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+85-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:28:15-196
+86            android:enabled="true"
+86-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:28:197-219
+87            android:exported="true"
+87-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:28:220-243
+88            android:hardwareAccelerated="false"
+88-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:28:244-279
+89            android:launchMode="singleTask"
+89-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:28:280-311
+90            android:resizeableActivity="true"
+90-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:28:370-403
+91            android:screenOrientation="fullUser"
+91-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:28:404-440
+92            android:theme="@style/BaseUnityGameActivityTheme" >
+92-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:28:441-490
+93            <intent-filter>
+93-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:19:7-22:23
+94                <category android:name="android.intent.category.LAUNCHER" />
+94-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:20:9-69
+94-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:20:19-66
+95
+96                <action android:name="android.intent.action.MAIN" />
+96-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:21:9-61
+96-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:21:17-58
+97            </intent-filter>
+98
+99            <meta-data
+99-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:23:7-82
+100                android:name="unityplayer.UnityActivity"
+100-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:23:18-58
+101                android:value="true" />
+101-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:23:59-79
+102            <meta-data
+102-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:34:7-77
+103                android:name="android.app.lib_name"
+103-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:34:18-53
+104                android:value="game" />
+104-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:34:54-74
+105            <meta-data
+105-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:24:7-130
+106                android:name="WindowManagerPreference:FreeformWindowSize"
+106-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:24:18-75
+107                android:value="@string/FreeformWindowSize_maximize" />
+107-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:24:76-127
+108            <meta-data
+108-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:25:7-145
+109                android:name="WindowManagerPreference:FreeformWindowOrientation"
+109-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:25:18-82
+110                android:value="@string/FreeformWindowOrientation_landscape" />
+110-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:25:83-142
+111            <meta-data
+111-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:37:7-70
+112                android:name="notch_support"
+112-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:37:18-46
+113                android:value="true" />
+113-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:37:47-67
+114
+115            <layout
+115-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:26:7-68
+116                android:minHeight="300px"
+116-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:26:15-40
+117                android:minWidth="400px" />
+117-->/workspace/unity/build/Android/unityLibrary/src/main/AndroidManifest.xml:26:41-65
+118        </activity>
+119    </application>
+120
+121</manifest>

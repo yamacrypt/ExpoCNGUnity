@@ -1,0 +1,17 @@
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/GAToUnityCallbacks.h
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/MacroEnd.h
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/MacroHeaderBegin.h
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/MacroSourceBegin.h
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/UGAApplication.h
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/UGAConfiguration.h
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/UGADebug.h
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/UGAEvents.h
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/UGAInput.h
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/UGASoftKeyboard.h
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/UGASoftKeyboardCallbacks.h
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/UGATypes.h
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/UGAVersion.h
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/UnityToGACallbacks.h
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/UnityToGAConfigurationCallbacks.h
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/UnityToGAKeyEventCallbacks.h
+/workspace/unity/build/Android/unityLibrary/src/main/cpp/GameActivity/UnityToGAMotionEventCallbacks.h

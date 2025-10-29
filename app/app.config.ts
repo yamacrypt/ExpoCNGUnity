@@ -43,7 +43,7 @@ const createConfig = ({ config }: ConfigContext): ExpoConfig => ({
     [
       'expo-embed-android-unity-project',
       {
-        unityLibraryPath: '../unity/build/Android'
+        unityLibraryPath: '../../unity/build/Android/unityLibrary'
       }
     ],
   ],
