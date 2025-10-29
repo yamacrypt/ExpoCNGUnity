@@ -1,10 +1,10 @@
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import React from 'react';
 import { Button, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { unityBridge } from '@/bridge';
 import { formatBuildInfo } from '@expocngunity/common';
-import { RootStackParamList } from '@/navigation/types';
+import type { NativeStackScreenProps } from '@react-navigation/native-stack';
+import type { RootStackParamList } from '@/navigation/types';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
 
