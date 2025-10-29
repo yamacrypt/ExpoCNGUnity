@@ -1,0 +1,20 @@
+{
+  "name": "expo-cng-unity",
+  "private": true,
+  "packageManager": "yarn@4.9.4",
+  "engines": {
+    "node": ">=20 <21",
+    "yarn": ">=3"
+  },
+  "workspaces": [
+    "app",
+    "web",
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "yarn workspaces foreach -pt run lint",
+    "typecheck": "yarn workspaces foreach -pt run typecheck",
+    "build:web": "yarn --cwd web build",
+    "prebuild": "yarn --cwd app expo prebuild --non-interactive"
+  }
+}

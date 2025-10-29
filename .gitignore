@@ -1,0 +1,29 @@
+# Node/Yarn
+node_modules/
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Expo CNG generated native projects
+/app/ios
+/app/android
+
+# Expo / React Native artifacts
+.expo/
+.expo-shared/
+web-build/
+*.log
+.env
+
+# Yarn
+yarn-error.log
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/

@@ -1,0 +1,43 @@
+{
+  "name": "expo-cng-unity-app",
+  "private": true,
+  "version": "0.1.0",
+  "main": "expo/AppEntry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "prebuild": "expo prebuild",
+    "lint": "eslint --max-warnings=0 --ext .ts,.tsx App.tsx src",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.10.0",
+    "@expocngunity/common": "workspace:*",
+    "expo": "^51.0.0",
+    "expo-dev-client": "^3.0.0",
+    "expo-constants": "^16.0.0",
+    "expo-linking": "^6.0.0",
+    "expo-status-bar": "^1.12.0",
+    "react": "18.2.0",
+    "react-native": "0.74.3",
+    "react-native-gesture-handler": "^2.16.1",
+    "react-native-reanimated": "^3.10.1",
+    "react-native-safe-area-context": "^4.10.5",
+    "react-native-screens": "^3.31.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "@tsconfig/react-native": "^4.1.0",
+    "@types/react": "18.2.66",
+    "@types/react-native": "0.73.0",
+    "@types/react-test-renderer": "18.0.0",
+    "eslint": "^8.57.0",
+    "dotenv": "^16.4.5",
+    "eslint-config-expo": "^7.1.0",
+    "typescript": "^5.4.5"
+  }
+}

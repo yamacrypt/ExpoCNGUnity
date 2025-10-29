@@ -1,0 +1,22 @@
+{
+  "name": "@expocngunity/common",
+  "version": "0.1.0",
+  "private": true,
+  "source": "src/index.ts",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "rm -rf dist",
+    "lint": "eslint --max-warnings=0 --ext .ts src",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "@types/react": "18.2.66",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5"
+  }
+}
