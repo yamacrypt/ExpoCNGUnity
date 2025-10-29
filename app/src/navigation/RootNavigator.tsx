@@ -4,7 +4,7 @@ import React from 'react';
 
 import HomeScreen from '@/screens/HomeScreen';
 import UnityScreen from '@/screens/UnityScreen';
-import { RootStackParamList } from './types';
+import type { RootStackParamList } from './types';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
