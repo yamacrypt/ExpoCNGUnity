@@ -11,7 +11,8 @@ services:
       - android-gradle-cache:/root/.gradle
       - pnpm-store:/root/.local/share/pnpm/store
     environment:
-      - ADB_SERVER_SOCKET=tcp:host.docker.internal:5037
+      - ANDROID_ADB_SERVER_ADDRESS=host.docker.internal
+      - ANDROID_ADB_SERVER_PORT=5037
       - ANDROID_SDK_ROOT=/opt/android-sdk
       - ANDROID_HOME=/opt/android-sdk
       - JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
