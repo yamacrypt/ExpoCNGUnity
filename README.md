@@ -36,6 +36,23 @@ yarn install
 
 必要な環境変数は `app/.env.example` を参照して `.env` を作成し、`app.config.ts` の `extra` から取得します。
 
+## Docker 開発環境
+
+Android SDK を含んだ開発環境を Docker で再現する場合は、以下のコンテナ構成を利用できます。
+
+```bash
+# 初回のみイメージをビルド
+docker compose build
+
+# Expo / Android の開発で利用するモバイル向けシェルを起動
+docker compose run --rm mobile bash
+
+# Web フロントエンドの開発サーバを起動
+docker compose up web
+```
+
+`mobile` サービスは `adb` と接続できるように `host.docker.internal` を解決し、`web` サービスは Vite の dev サーバをポート `5173` でホストします。Gradle と Yarn のキャッシュはボリュームに永続化されます。
+
 ## モバイル開発フロー (Expo CNG)
 
 1. Expo 依存を追加・設定 → `app/app.config.ts` に反映
