@@ -9,7 +9,7 @@ services:
     volumes:
       - .:/workspace
       - android-gradle-cache:/root/.gradle
-      - pnpm-store:/root/.local/share/pnpm/store
+      - yarn-cache:/usr/local/share/.cache/yarn/v6
     ports:
       - "8081:8081"
       - "19000-19006:19000-19006"
@@ -33,12 +33,12 @@ services:
     working_dir: /workspace
     volumes:
       - .:/workspace
-      - pnpm-store:/root/.local/share/pnpm/store
+      - yarn-cache:/usr/local/share/.cache/yarn/v6
     ports:
       - "5173:5173"
     command: >-
-      bash -lc "pnpm install --ignore-scripts && pnpm --filter expo-cng-unity-web run dev -- --host 0.0.0.0 --port 5173"
+      bash -lc "yarn install --ignore-scripts && yarn workspace app run web -- --host 0.0.0.0 --port 5173"
 
 volumes:
   android-gradle-cache:
-  pnpm-store:
+  yarn-cache:
