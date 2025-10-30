@@ -1,0 +1,3559 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19;
+struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414;
+struct SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4;
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
+struct CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094;
+struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224;
+struct GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB;
+struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
+struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
+struct String_t;
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62;
+struct TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E;
+struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
+struct U3CCelebrationPhaseU3Ed__33_t7A2AF3975F0D9E5F780C0FE177EBECAA7E3DFD65;
+struct U3CGlowPulsePhaseU3Ed__31_t73071F363131BC47A2860C1B78ACB9EDDF351041;
+struct U3CPlaySequenceU3Ed__29_t1C34BD9D2AD8F83C95404F833D7C77FB68808553;
+struct U3CRevealPhaseU3Ed__32_tBF84528ADE722ABB331B5EB6C13F0AC8CB7EA9DE;
+struct U3CStartU3Ed__26_t040B2250A26E25A1BF372A87787D6C087A27D38E;
+struct U3CWarmupPhaseU3Ed__30_t4F559A88EFBF206C331BEAE2EEAD498408DE219E;
+struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
+struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401;
+struct ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24;
+
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CCelebrationPhaseU3Ed__33_t7A2AF3975F0D9E5F780C0FE177EBECAA7E3DFD65_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CGlowPulsePhaseU3Ed__31_t73071F363131BC47A2860C1B78ACB9EDDF351041_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CPlaySequenceU3Ed__29_t1C34BD9D2AD8F83C95404F833D7C77FB68808553_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CRevealPhaseU3Ed__32_tBF84528ADE722ABB331B5EB6C13F0AC8CB7EA9DE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CStartU3Ed__26_t040B2250A26E25A1BF372A87787D6C087A27D38E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CWarmupPhaseU3Ed__30_t4F559A88EFBF206C331BEAE2EEAD498408DE219E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____7649F558634B159DEF3573B716FB48923FDB5D213122763852885D6BAD885D6E_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____A4147B4CD47AE2642D624112EF2067772FD0A906CE4E87158C9F5E22EA34E379_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral08C5E92BF1B0A2AE0804043CEAE75D894EF04F04;
+IL2CPP_EXTERN_C String_t* _stringLiteral0EFBFBE47912427C50EA7388B5672016E0FE57C8;
+IL2CPP_EXTERN_C String_t* _stringLiteral12E81DF0735AEE44753D0C3F80467847E1FCBA4D;
+IL2CPP_EXTERN_C String_t* _stringLiteral1C2AB8ACB963442757EE3277803EC873BC85540A;
+IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
+IL2CPP_EXTERN_C String_t* _stringLiteral5BE74ECF994782615CDED8B7DA40F9256DD3710A;
+IL2CPP_EXTERN_C String_t* _stringLiteral63B7C88AE73C5FCEC02046146AA26D81B68C31AE;
+IL2CPP_EXTERN_C String_t* _stringLiteral70D5981C470BD149CEB65A8279500BC47BD4D0C2;
+IL2CPP_EXTERN_C String_t* _stringLiteral7E66B5282F6A7EE7BF94813E162E0527AF8528BA;
+IL2CPP_EXTERN_C String_t* _stringLiteral87AA61C1405A20A9F3568999A232DBC87E329514;
+IL2CPP_EXTERN_C String_t* _stringLiteral8E8C21472464FD1FD7F393AD09DEBA9C4542D3BD;
+IL2CPP_EXTERN_C String_t* _stringLiteralB0C7496E542ECEB2A83654B75E6EEB51B166469E;
+IL2CPP_EXTERN_C String_t* _stringLiteralD35F224696F2E79057644DF6654306C80D34C18C;
+IL2CPP_EXTERN_C String_t* _stringLiteralF3E1633127C7A19C2A2E004D0EC40296743D61D0;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCelebrationPhaseU3Ed__33_System_Collections_IEnumerator_Reset_m327E34591CD7D8B6B25C25FB00A27A75E6FB5D24_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CGlowPulsePhaseU3Ed__31_System_Collections_IEnumerator_Reset_mBB6B04FA6AC21B6EEFFF7A206B24E21F9F962B62_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CPlaySequenceU3Ed__29_System_Collections_IEnumerator_Reset_m364BFFFA73D0E47EADB1BE6531E84058BAD3E3B6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CRevealPhaseU3Ed__32_System_Collections_IEnumerator_Reset_m6AEE4E237B744E326AB4C69AE838D0917AEF5CFA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CStartU3Ed__26_System_Collections_IEnumerator_Reset_mFB98B53FD6A49F54E0B8105F83F379FBE45CA24D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CWarmupPhaseU3Ed__30_System_Collections_IEnumerator_Reset_m8C9455FD3E404CEA91792A0F42ED5142A5D74798_RuntimeMethod_var;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B 
+{
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+struct U3CCelebrationPhaseU3Ed__33_t7A2AF3975F0D9E5F780C0FE177EBECAA7E3DFD65  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* ___U3CU3E4__this;
+	float ___U3CelapsedU3E5__2;
+};
+struct U3CGlowPulsePhaseU3Ed__31_t73071F363131BC47A2860C1B78ACB9EDDF351041  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* ___U3CU3E4__this;
+	float ___U3CelapsedU3E5__2;
+};
+struct U3CStartU3Ed__26_t040B2250A26E25A1BF372A87787D6C087A27D38E  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* ___U3CU3E4__this;
+};
+struct U3CWarmupPhaseU3Ed__30_t4F559A88EFBF206C331BEAE2EEAD498408DE219E  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* ___U3CU3E4__this;
+	float ___U3CelapsedU3E5__2;
+};
+struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401  : public RuntimeObject
+{
+	String_t* ___heading;
+	String_t* ___text;
+	String_t* ___linkText;
+	String_t* ___url;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	float ___m_Seconds;
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D108_tDB5A737F5FBCFF628DE63E7700119A4EC9A3F2F9 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D108_tDB5A737F5FBCFF628DE63E7700119A4EC9A3F2F9__padding[108];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D147_t9188A5C59496F1782504B9C43D37856166B29610 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D147_t9188A5C59496F1782504B9C43D37856166B29610__padding[147];
+	};
+};
+#pragma pack(pop, tp)
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354  : public RuntimeObject
+{
+	intptr_t ___m_Ptr;
+	bool ___m_RequiresNativeCleanup;
+};
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+	int32_t ___m_RequiresNativeCleanup;
+};
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_com
+{
+	intptr_t ___m_Ptr;
+	int32_t ___m_RequiresNativeCleanup;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct KeyCode_t75B9ECCC26D858F55040DDFF9523681E996D17E9 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 
+{
+	String_t* ___name;
+	String_t* ___rarity;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___cardColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___glowColor;
+};
+struct GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95_marshaled_pinvoke
+{
+	char* ___name;
+	char* ___rarity;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___cardColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___glowColor;
+};
+struct GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95_marshaled_com
+{
+	Il2CppChar* ___name;
+	Il2CppChar* ___rarity;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___cardColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___glowColor;
+};
+struct FillMethod_t36837ED12068DF1582CC20489D571B0BCAA7AD19 
+{
+	int32_t ___value__;
+};
+struct Type_t81D6F138C2FC745112D5247CD91BD483EDFFC041 
+{
+	int32_t ___value__;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct U3CPlaySequenceU3Ed__29_t1C34BD9D2AD8F83C95404F833D7C77FB68808553  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* ___U3CU3E4__this;
+	GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 ___U3CrewardU3E5__2;
+};
+struct U3CRevealPhaseU3Ed__32_tBF84528ADE722ABB331B5EB6C13F0AC8CB7EA9DE  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* ___U3CU3E4__this;
+	GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 ___reward;
+	float ___U3CelapsedU3E5__2;
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___icon;
+	String_t* ___title;
+	SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4* ___sections;
+	bool ___loadedLayout;
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5  : public Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1
+{
+};
+struct GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___podRect;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___podImage;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___glowRect;
+	CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___glowGroup;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___glowImage;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___cardRect;
+	CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___cardGroup;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___cardImage;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___rarityText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___statusText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___instructionText;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___backgroundImage;
+	float ___spinSpeed;
+	float ___warmupDuration;
+	float ___glowPulseDuration;
+	float ___revealDuration;
+	float ___celebrationDuration;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___popCurve;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___baseBackground;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___chargeBackground;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___revealBackground;
+	GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414* ___sampleRewards;
+	bool ___isPlaying;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___currentRoutine;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	bool ___m_SkipLayoutUpdate;
+	bool ___m_SkipMaterialUpdate;
+	bool ___m_RaycastTarget;
+	bool ___m_RaycastTargetCache;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas;
+	bool ___m_VertsDirty;
+	bool ___m_MaterialDirty;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
+};
+struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
+{
+	bool ___m_ShouldRecalculateStencil;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask;
+	bool ___m_Maskable;
+	bool ___m_IsMaskingGraphic;
+	bool ___m_IncludeForMasking;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged;
+	bool ___m_ShouldRecalculate;
+	int32_t ___m_StencilValue;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_Sprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_OverrideSprite;
+	int32_t ___m_Type;
+	bool ___m_PreserveAspect;
+	bool ___m_FillCenter;
+	int32_t ___m_FillMethod;
+	float ___m_FillAmount;
+	bool ___m_FillClockwise;
+	int32_t ___m_FillOrigin;
+	float ___m_AlphaHitTestMinimumThreshold;
+	bool ___m_Tracked;
+	bool ___m_UseSpriteMesh;
+	float ___m_PixelsPerUnitMultiplier;
+	float ___m_CachedReferencePixelsPerUnit;
+	SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192* ___m_SecondaryTextures;
+};
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224* ___m_FontData;
+	String_t* ___m_Text;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCache;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCacheForLayout;
+	bool ___m_DisableFontTextureRebuiltCallback;
+	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_TempVerts;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D108_tDB5A737F5FBCFF628DE63E7700119A4EC9A3F2F9 ___7649F558634B159DEF3573B716FB48923FDB5D213122763852885D6BAD885D6E;
+	__StaticArrayInitTypeSizeU3D147_t9188A5C59496F1782504B9C43D37856166B29610 ___A4147B4CD47AE2642D624112EF2067772FD0A906CE4E87158C9F5E22EA34E379;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_StaticFields
+{
+	ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24* ___reapplyDrivenProperties;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultUI;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_WhiteTexture;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___s_Mesh;
+	VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* ___s_VertexHelper;
+};
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_ETC1DefaultUI;
+	SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192* ___s_TempNewSecondaryTextures;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_VertScratch;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_UVScratch;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Xy;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Uv;
+	List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19* ___m_TrackedTexturelessImages;
+	bool ___s_Initialized;
+};
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultText;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414  : public RuntimeArray
+{
+	ALIGN_FIELD (8) GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 m_Items[1];
+
+	inline GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___name), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___rarity), (void*)NULL);
+		#endif
+	}
+	inline GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___name), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___rarity), (void*)NULL);
+		#endif
+	}
+};
+
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GachaSequenceController_ResetVisualState_m3B5C9DDE2737BADD667E7D7EB31DD6E0349BA44F (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__26__ctor_m14F518E2ED6A37CDBBE63EBFACCBE320A83A0583 (U3CStartU3Ed__26_t040B2250A26E25A1BF372A87787D6C087A27D38E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2 (int32_t ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GachaSequenceController_PlaySequence_m6BA9A1CF447A7049D424098A9CB8429F1886E744 (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F (CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPlaySequenceU3Ed__29__ctor_m71BF8068057D05812CEDDEA112AFD7D58AE9949C (U3CPlaySequenceU3Ed__29_t1C34BD9D2AD8F83C95404F833D7C77FB68808553* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWarmupPhaseU3Ed__30__ctor_m7C8E3E834BB89A5DD76EF4D21EDD2858D961CFF5 (U3CWarmupPhaseU3Ed__30_t4F559A88EFBF206C331BEAE2EEAD498408DE219E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGlowPulsePhaseU3Ed__31__ctor_m05059518636F7E8C1C08A3DA04CE162ED5099A4B (U3CGlowPulsePhaseU3Ed__31_t73071F363131BC47A2860C1B78ACB9EDDF351041* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRevealPhaseU3Ed__32__ctor_m6CE997B6E53D9B67798CA79F58EB85176B29C242 (U3CRevealPhaseU3Ed__32_tBF84528ADE722ABB331B5EB6C13F0AC8CB7EA9DE* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCelebrationPhaseU3Ed__33__ctor_m795FDFF670E01AACAECE7F4C7DC2A25AF14DD2A1 (U3CCelebrationPhaseU3Ed__33_t7A2AF3975F0D9E5F780C0FE177EBECAA7E3DFD65* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GachaReward__ctor_m14309F3FA574D57AC472A1F1BDEF777CAB1A0B2B (GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95* __this, String_t* ___0_name, String_t* ___1_rarity, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___2_cardColor, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___3_glowColor, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68 (int32_t ___0_minInclusive, int32_t ___1_maxExclusive, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* AnimationCurve_EaseInOut_m01DD06E6C8962F8F62F293C9EAE491C3D3F2CAF3 (float ___0_timeStart, float ___1_valueStart, float ___2_timeEnd, float ___3_valueEnd, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_PingPong_mB1D6A10F386CE1EEA99DB69486DDA6DA531D799D_inline (float ___0_t, float ___1_length, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* __this, float ___0_time, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 GachaSequenceController_SelectReward_m7BF53314204878FB2306FD263F87B7D938A77942 (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GachaSequenceController_WarmupPhase_m04F0BA8832D2AF0358E36F5301F5171039C69FE4 (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GachaSequenceController_GlowPulsePhase_m92538C8F2BCE196673B130FC8D8F7DCA81C53697 (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GachaSequenceController_RevealPhase_mB66AD261D601203F4CCE4FBB4970A1A799549B53 (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 ___0_reward, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GachaSequenceController_CelebrationPhase_m5C3B8DA8595DA77B9532F4CFCF450A1B4120886F (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_Lerp_mE79F87889843ECDC188E4CB5B5E1F1B2256E5EBE_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_a, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___0_seconds, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Rotate_m7EA47AD57F43D478CCB0523D179950EE49CDA3E2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, float ___0_xAngle, float ___1_yAngle, float ___2_zAngle, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_SmoothStep_mEFDC738EB0AA162D71013BDBBDD157B080A8E524_inline (float ___0_from, float ___1_to, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Repeat_m6F1560A163481BB311D685294E1B463C3E4EB3BA_inline (float ___0_t, float ___1_length, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_FromEulerRad_m66D4475341F53949471E6870FB5C5E4A5E9BA93E (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65337
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
+{
+	{
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65338
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65339
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____7649F558634B159DEF3573B716FB48923FDB5D213122763852885D6BAD885D6E_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____A4147B4CD47AE2642D624112EF2067772FD0A906CE4E87158C9F5E22EA34E379_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)108));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____7649F558634B159DEF3573B716FB48923FDB5D213122763852885D6BAD885D6E_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)147));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____A4147B4CD47AE2642D624112EF2067772FD0A906CE4E87158C9F5E22EA34E379_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = 2;
+		(&V_0)->___TotalTypes = 4;
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 65340
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65341
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GachaSequenceController_Awake_m08B0ACD97C79675B0734F1DBB6D91723553ABE71 (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral63B7C88AE73C5FCEC02046146AA26D81B68C31AE);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:69>
+		GachaSequenceController_ResetVisualState_m3B5C9DDE2737BADD667E7D7EB31DD6E0349BA44F(__this, NULL);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:70>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___instructionText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:72>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___instructionText;
+		NullCheck(L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_2, _stringLiteral63B7C88AE73C5FCEC02046146AA26D81B68C31AE);
+	}
+
+IL_0024:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:74>
+		return;
+	}
+}
+// Method Definition Index: 65342
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GachaSequenceController_Start_mA5A1415DE0C689206D5944DA9BCA34ECDE439CBA (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CStartU3Ed__26_t040B2250A26E25A1BF372A87787D6C087A27D38E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CStartU3Ed__26_t040B2250A26E25A1BF372A87787D6C087A27D38E* L_0 = (U3CStartU3Ed__26_t040B2250A26E25A1BF372A87787D6C087A27D38E*)il2cpp_codegen_object_new(U3CStartU3Ed__26_t040B2250A26E25A1BF372A87787D6C087A27D38E_il2cpp_TypeInfo_var);
+		U3CStartU3Ed__26__ctor_m14F518E2ED6A37CDBBE63EBFACCBE320A83A0583(L_0, 0, NULL);
+		U3CStartU3Ed__26_t040B2250A26E25A1BF372A87787D6C087A27D38E* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 65343
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GachaSequenceController_Update_mAF9FFF7FAA70E6A39F069C107221B7CC69BCBB0E (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:84>
+		bool L_0 = __this->___isPlaying;
+		if (L_0)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		bool L_1;
+		L_1 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)32), NULL);
+		if (!L_1)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:86>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2 = __this->___currentRoutine;
+		if (!L_2)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:88>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3 = __this->___currentRoutine;
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_3, NULL);
+	}
+
+IL_0025:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:91>
+		RuntimeObject* L_4;
+		L_4 = GachaSequenceController_PlaySequence_m6BA9A1CF447A7049D424098A9CB8429F1886E744(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
+		L_5 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_4, NULL);
+		__this->___currentRoutine = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentRoutine), (void*)L_5);
+	}
+
+IL_0037:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:93>
+		return;
+	}
+}
+// Method Definition Index: 65344
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GachaSequenceController_ResetVisualState_m3B5C9DDE2737BADD667E7D7EB31DD6E0349BA44F (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:97>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___podRect;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:99>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2 = __this->___podRect;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		NullCheck(L_2);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_2, L_3, NULL);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:100>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_4 = __this->___podRect;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
+		L_5 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		NullCheck(L_4);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_4, L_5, NULL);
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:103>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = __this->___glowRect;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:105>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_8 = __this->___glowRect;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_9, (1.20000005f), NULL);
+		NullCheck(L_8);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_8, L_10, NULL);
+	}
+
+IL_0056:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:108>
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_11 = __this->___glowGroup;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_12;
+		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_12)
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:110>
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_13 = __this->___glowGroup;
+		NullCheck(L_13);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_13, (0.0f), NULL);
+	}
+
+IL_0074:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:113>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = __this->___cardRect;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_15;
+		L_15 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_15)
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:115>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_16 = __this->___cardRect;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		L_17 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		NullCheck(L_16);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_16, L_17, NULL);
+	}
+
+IL_0092:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:118>
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_18 = __this->___cardGroup;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_19;
+		L_19 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_18, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_19)
+		{
+			goto IL_00b0;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:120>
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_20 = __this->___cardGroup;
+		NullCheck(L_20);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_20, (0.0f), NULL);
+	}
+
+IL_00b0:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:123>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_21 = __this->___rarityText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_22;
+		L_22 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_21, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_22)
+		{
+			goto IL_00ce;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:125>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_23 = __this->___rarityText;
+		String_t* L_24 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
+		NullCheck(L_23);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_23, L_24);
+	}
+
+IL_00ce:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:128>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = __this->___statusText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_26;
+		L_26 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_25, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_26)
+		{
+			goto IL_00ec;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:130>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_27 = __this->___statusText;
+		String_t* L_28 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
+		NullCheck(L_27);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_27, L_28);
+	}
+
+IL_00ec:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:133>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_29 = __this->___backgroundImage;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_30;
+		L_30 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_29, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_30)
+		{
+			goto IL_010b;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:135>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_31 = __this->___backgroundImage;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_32 = __this->___baseBackground;
+		NullCheck(L_31);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_31, L_32);
+	}
+
+IL_010b:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:137>
+		return;
+	}
+}
+// Method Definition Index: 65345
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GachaSequenceController_PlaySequence_m6BA9A1CF447A7049D424098A9CB8429F1886E744 (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPlaySequenceU3Ed__29_t1C34BD9D2AD8F83C95404F833D7C77FB68808553_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CPlaySequenceU3Ed__29_t1C34BD9D2AD8F83C95404F833D7C77FB68808553* L_0 = (U3CPlaySequenceU3Ed__29_t1C34BD9D2AD8F83C95404F833D7C77FB68808553*)il2cpp_codegen_object_new(U3CPlaySequenceU3Ed__29_t1C34BD9D2AD8F83C95404F833D7C77FB68808553_il2cpp_TypeInfo_var);
+		U3CPlaySequenceU3Ed__29__ctor_m71BF8068057D05812CEDDEA112AFD7D58AE9949C(L_0, 0, NULL);
+		U3CPlaySequenceU3Ed__29_t1C34BD9D2AD8F83C95404F833D7C77FB68808553* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 65346
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GachaSequenceController_WarmupPhase_m04F0BA8832D2AF0358E36F5301F5171039C69FE4 (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CWarmupPhaseU3Ed__30_t4F559A88EFBF206C331BEAE2EEAD498408DE219E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CWarmupPhaseU3Ed__30_t4F559A88EFBF206C331BEAE2EEAD498408DE219E* L_0 = (U3CWarmupPhaseU3Ed__30_t4F559A88EFBF206C331BEAE2EEAD498408DE219E*)il2cpp_codegen_object_new(U3CWarmupPhaseU3Ed__30_t4F559A88EFBF206C331BEAE2EEAD498408DE219E_il2cpp_TypeInfo_var);
+		U3CWarmupPhaseU3Ed__30__ctor_m7C8E3E834BB89A5DD76EF4D21EDD2858D961CFF5(L_0, 0, NULL);
+		U3CWarmupPhaseU3Ed__30_t4F559A88EFBF206C331BEAE2EEAD498408DE219E* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 65347
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GachaSequenceController_GlowPulsePhase_m92538C8F2BCE196673B130FC8D8F7DCA81C53697 (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGlowPulsePhaseU3Ed__31_t73071F363131BC47A2860C1B78ACB9EDDF351041_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CGlowPulsePhaseU3Ed__31_t73071F363131BC47A2860C1B78ACB9EDDF351041* L_0 = (U3CGlowPulsePhaseU3Ed__31_t73071F363131BC47A2860C1B78ACB9EDDF351041*)il2cpp_codegen_object_new(U3CGlowPulsePhaseU3Ed__31_t73071F363131BC47A2860C1B78ACB9EDDF351041_il2cpp_TypeInfo_var);
+		U3CGlowPulsePhaseU3Ed__31__ctor_m05059518636F7E8C1C08A3DA04CE162ED5099A4B(L_0, 0, NULL);
+		U3CGlowPulsePhaseU3Ed__31_t73071F363131BC47A2860C1B78ACB9EDDF351041* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 65348
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GachaSequenceController_RevealPhase_mB66AD261D601203F4CCE4FBB4970A1A799549B53 (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 ___0_reward, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRevealPhaseU3Ed__32_tBF84528ADE722ABB331B5EB6C13F0AC8CB7EA9DE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CRevealPhaseU3Ed__32_tBF84528ADE722ABB331B5EB6C13F0AC8CB7EA9DE* L_0 = (U3CRevealPhaseU3Ed__32_tBF84528ADE722ABB331B5EB6C13F0AC8CB7EA9DE*)il2cpp_codegen_object_new(U3CRevealPhaseU3Ed__32_tBF84528ADE722ABB331B5EB6C13F0AC8CB7EA9DE_il2cpp_TypeInfo_var);
+		U3CRevealPhaseU3Ed__32__ctor_m6CE997B6E53D9B67798CA79F58EB85176B29C242(L_0, 0, NULL);
+		U3CRevealPhaseU3Ed__32_tBF84528ADE722ABB331B5EB6C13F0AC8CB7EA9DE* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CRevealPhaseU3Ed__32_tBF84528ADE722ABB331B5EB6C13F0AC8CB7EA9DE* L_2 = L_1;
+		GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 L_3 = ___0_reward;
+		NullCheck(L_2);
+		L_2->___reward = L_3;
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_2->___reward))->___name), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_2->___reward))->___rarity), (void*)NULL);
+		#endif
+		return L_2;
+	}
+}
+// Method Definition Index: 65349
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GachaSequenceController_CelebrationPhase_m5C3B8DA8595DA77B9532F4CFCF450A1B4120886F (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CCelebrationPhaseU3Ed__33_t7A2AF3975F0D9E5F780C0FE177EBECAA7E3DFD65_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CCelebrationPhaseU3Ed__33_t7A2AF3975F0D9E5F780C0FE177EBECAA7E3DFD65* L_0 = (U3CCelebrationPhaseU3Ed__33_t7A2AF3975F0D9E5F780C0FE177EBECAA7E3DFD65*)il2cpp_codegen_object_new(U3CCelebrationPhaseU3Ed__33_t7A2AF3975F0D9E5F780C0FE177EBECAA7E3DFD65_il2cpp_TypeInfo_var);
+		U3CCelebrationPhaseU3Ed__33__ctor_m795FDFF670E01AACAECE7F4C7DC2A25AF14DD2A1(L_0, 0, NULL);
+		U3CCelebrationPhaseU3Ed__33_t7A2AF3975F0D9E5F780C0FE177EBECAA7E3DFD65* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 65350
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 GachaSequenceController_SelectReward_m7BF53314204878FB2306FD263F87B7D938A77942 (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8E8C21472464FD1FD7F393AD09DEBA9C4542D3BD);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB0C7496E542ECEB2A83654B75E6EEB51B166469E);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:321>
+		GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414* L_0 = __this->___sampleRewards;
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414* L_1 = __this->___sampleRewards;
+		NullCheck(L_1);
+		if ((((RuntimeArray*)L_1)->max_length))
+		{
+			goto IL_002b;
+		}
+	}
+
+IL_0011:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:323>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
+		L_2 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
+		L_3 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
+		GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		GachaReward__ctor_m14309F3FA574D57AC472A1F1BDEF777CAB1A0B2B((&L_4), _stringLiteralB0C7496E542ECEB2A83654B75E6EEB51B166469E, _stringLiteral8E8C21472464FD1FD7F393AD09DEBA9C4542D3BD, L_2, L_3, NULL);
+		return L_4;
+	}
+
+IL_002b:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:326>
+		GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414* L_5 = __this->___sampleRewards;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)(((RuntimeArray*)L_5)->max_length)), NULL);
+		V_0 = L_6;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:327>
+		GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414* L_7 = __this->___sampleRewards;
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		return L_10;
+	}
+}
+// Method Definition Index: 65351
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GachaSequenceController__ctor_m0C9B2D98DBB7415DBA15F64977E9798810598167 (GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral08C5E92BF1B0A2AE0804043CEAE75D894EF04F04);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0EFBFBE47912427C50EA7388B5672016E0FE57C8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral12E81DF0735AEE44753D0C3F80467847E1FCBA4D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1C2AB8ACB963442757EE3277803EC873BC85540A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD35F224696F2E79057644DF6654306C80D34C18C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3E1633127C7A19C2A2E004D0EC40296743D61D0);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:45>
+		__this->___spinSpeed = (180.0f);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:46>
+		__this->___warmupDuration = (2.20000005f);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:47>
+		__this->___glowPulseDuration = (0.600000024f);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:48>
+		__this->___revealDuration = (0.899999976f);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:49>
+		__this->___celebrationDuration = (1.60000002f);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:50>
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_0;
+		L_0 = AnimationCurve_EaseInOut_m01DD06E6C8962F8F62F293C9EAE491C3D3F2CAF3((0.0f), (0.0f), (1.0f), (1.0f), NULL);
+		__this->___popCurve = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___popCurve), (void*)L_0);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:51>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_1), (0.0500000007f), (0.0199999996f), (0.0900000036f), NULL);
+		__this->___baseBackground = L_1;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:52>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_2), (0.140000001f), (0.0500000007f), (0.219999999f), NULL);
+		__this->___chargeBackground = L_2;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:53>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_3), (0.0500000007f), (0.100000001f), (0.25f), NULL);
+		__this->___revealBackground = L_3;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:57>
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:58>
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:59>
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:60>
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:61>
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:62>
+		GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414* L_4 = (GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414*)(GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414*)SZArrayNew(GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414_il2cpp_TypeInfo_var, (uint32_t)3);
+		GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414* L_5 = L_4;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_6), (0.400000006f), (0.800000012f), (1.0f), NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7;
+		memset((&L_7), 0, sizeof(L_7));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_7), (0.5f), (0.899999976f), (1.0f), NULL);
+		GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		GachaReward__ctor_m14309F3FA574D57AC472A1F1BDEF777CAB1A0B2B((&L_8), _stringLiteralF3E1633127C7A19C2A2E004D0EC40296743D61D0, _stringLiteral12E81DF0735AEE44753D0C3F80467847E1FCBA4D, L_6, L_7, NULL);
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95)L_8);
+		GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414* L_9 = L_5;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10;
+		memset((&L_10), 0, sizeof(L_10));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_10), (0.699999988f), (0.600000024f), (1.0f), NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11;
+		memset((&L_11), 0, sizeof(L_11));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_11), (0.899999976f), (0.699999988f), (1.0f), NULL);
+		GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		GachaReward__ctor_m14309F3FA574D57AC472A1F1BDEF777CAB1A0B2B((&L_12), _stringLiteral0EFBFBE47912427C50EA7388B5672016E0FE57C8, _stringLiteral1C2AB8ACB963442757EE3277803EC873BC85540A, L_10, L_11, NULL);
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(1), (GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95)L_12);
+		GachaRewardU5BU5D_t65C73181FDCED37671C273FCE31972A50331A414* L_13 = L_9;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14;
+		memset((&L_14), 0, sizeof(L_14));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_14), (0.600000024f), (1.0f), (0.699999988f), NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15;
+		memset((&L_15), 0, sizeof(L_15));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_15), (0.600000024f), (1.0f), (0.800000012f), NULL);
+		GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		GachaReward__ctor_m14309F3FA574D57AC472A1F1BDEF777CAB1A0B2B((&L_16), _stringLiteral08C5E92BF1B0A2AE0804043CEAE75D894EF04F04, _stringLiteralD35F224696F2E79057644DF6654306C80D34C18C, L_14, L_15, NULL);
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(2), (GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95)L_16);
+		__this->___sampleRewards = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___sampleRewards), (void*)L_13);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95_marshal_pinvoke(const GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95& unmarshaled, GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95_marshaled_pinvoke& marshaled)
+{
+	marshaled.___name = il2cpp_codegen_marshal_string(unmarshaled.___name);
+	marshaled.___rarity = il2cpp_codegen_marshal_string(unmarshaled.___rarity);
+	marshaled.___cardColor = unmarshaled.___cardColor;
+	marshaled.___glowColor = unmarshaled.___glowColor;
+}
+IL2CPP_EXTERN_C void GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95_marshal_pinvoke_back(const GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95_marshaled_pinvoke& marshaled, GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95& unmarshaled)
+{
+	unmarshaled.___name = il2cpp_codegen_marshal_string_result(marshaled.___name);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___name), (void*)il2cpp_codegen_marshal_string_result(marshaled.___name));
+	unmarshaled.___rarity = il2cpp_codegen_marshal_string_result(marshaled.___rarity);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___rarity), (void*)il2cpp_codegen_marshal_string_result(marshaled.___rarity));
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F unmarshaledcardColor_temp_2;
+	memset((&unmarshaledcardColor_temp_2), 0, sizeof(unmarshaledcardColor_temp_2));
+	unmarshaledcardColor_temp_2 = marshaled.___cardColor;
+	unmarshaled.___cardColor = unmarshaledcardColor_temp_2;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F unmarshaledglowColor_temp_3;
+	memset((&unmarshaledglowColor_temp_3), 0, sizeof(unmarshaledglowColor_temp_3));
+	unmarshaledglowColor_temp_3 = marshaled.___glowColor;
+	unmarshaled.___glowColor = unmarshaledglowColor_temp_3;
+}
+IL2CPP_EXTERN_C void GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95_marshal_pinvoke_cleanup(GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___name);
+	marshaled.___name = NULL;
+	il2cpp_codegen_marshal_free(marshaled.___rarity);
+	marshaled.___rarity = NULL;
+}
+IL2CPP_EXTERN_C void GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95_marshal_com(const GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95& unmarshaled, GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95_marshaled_com& marshaled)
+{
+	marshaled.___name = il2cpp_codegen_marshal_bstring(unmarshaled.___name);
+	marshaled.___rarity = il2cpp_codegen_marshal_bstring(unmarshaled.___rarity);
+	marshaled.___cardColor = unmarshaled.___cardColor;
+	marshaled.___glowColor = unmarshaled.___glowColor;
+}
+IL2CPP_EXTERN_C void GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95_marshal_com_back(const GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95_marshaled_com& marshaled, GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95& unmarshaled)
+{
+	unmarshaled.___name = il2cpp_codegen_marshal_bstring_result(marshaled.___name);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___name), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___name));
+	unmarshaled.___rarity = il2cpp_codegen_marshal_bstring_result(marshaled.___rarity);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___rarity), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___rarity));
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F unmarshaledcardColor_temp_2;
+	memset((&unmarshaledcardColor_temp_2), 0, sizeof(unmarshaledcardColor_temp_2));
+	unmarshaledcardColor_temp_2 = marshaled.___cardColor;
+	unmarshaled.___cardColor = unmarshaledcardColor_temp_2;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F unmarshaledglowColor_temp_3;
+	memset((&unmarshaledglowColor_temp_3), 0, sizeof(unmarshaledglowColor_temp_3));
+	unmarshaledglowColor_temp_3 = marshaled.___glowColor;
+	unmarshaled.___glowColor = unmarshaledglowColor_temp_3;
+}
+IL2CPP_EXTERN_C void GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95_marshal_com_cleanup(GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___name);
+	marshaled.___name = NULL;
+	il2cpp_codegen_marshal_free_bstring(marshaled.___rarity);
+	marshaled.___rarity = NULL;
+}
+// Method Definition Index: 65352
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GachaReward__ctor_m14309F3FA574D57AC472A1F1BDEF777CAB1A0B2B (GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95* __this, String_t* ___0_name, String_t* ___1_rarity, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___2_cardColor, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___3_glowColor, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:23>
+		String_t* L_0 = ___0_name;
+		__this->___name = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___name), (void*)L_0);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:24>
+		String_t* L_1 = ___1_rarity;
+		__this->___rarity = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___rarity), (void*)L_1);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:25>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2 = ___2_cardColor;
+		__this->___cardColor = L_2;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:26>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___3_glowColor;
+		__this->___glowColor = L_3;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:27>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void GachaReward__ctor_m14309F3FA574D57AC472A1F1BDEF777CAB1A0B2B_AdjustorThunk (RuntimeObject* __this, String_t* ___0_name, String_t* ___1_rarity, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___2_cardColor, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___3_glowColor, const RuntimeMethod* method)
+{
+	GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95*>(__this + _offset);
+	GachaReward__ctor_m14309F3FA574D57AC472A1F1BDEF777CAB1A0B2B(_thisAdjusted, ___0_name, ___1_rarity, ___2_cardColor, ___3_glowColor, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65353
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCelebrationPhaseU3Ed__33__ctor_m795FDFF670E01AACAECE7F4C7DC2A25AF14DD2A1 (U3CCelebrationPhaseU3Ed__33_t7A2AF3975F0D9E5F780C0FE177EBECAA7E3DFD65* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 65354
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCelebrationPhaseU3Ed__33_System_IDisposable_Dispose_m54F76E87A482A8B2B1C4AC4CDB5BBEE0F4248F6B (U3CCelebrationPhaseU3Ed__33_t7A2AF3975F0D9E5F780C0FE177EBECAA7E3DFD65* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 65355
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCelebrationPhaseU3Ed__33_MoveNext_m7284E1850A941548BF4D05357A30F4D3E286669B (U3CCelebrationPhaseU3Ed__33_t7A2AF3975F0D9E5F780C0FE177EBECAA7E3DFD65* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* V_1 = NULL;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_010d;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_001a:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:288>
+		__this->___U3CelapsedU3E5__2 = (0.0f);
+		goto IL_0114;
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:291>
+		float L_4 = __this->___U3CelapsedU3E5__2;
+		float L_5;
+		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___U3CelapsedU3E5__2 = ((float)il2cpp_codegen_add(L_4, L_5));
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:292>
+		float L_6 = __this->___U3CelapsedU3E5__2;
+		float L_7;
+		L_7 = Mathf_PingPong_mB1D6A10F386CE1EEA99DB69486DDA6DA531D799D_inline(((float)il2cpp_codegen_multiply(L_6, (1.20000005f))), (1.0f), NULL);
+		V_2 = L_7;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:294>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_8 = V_1;
+		NullCheck(L_8);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_9 = L_8->___glowGroup;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_10)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:296>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_11 = V_1;
+		NullCheck(L_11);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_12 = L_11->___glowGroup;
+		float L_13 = V_2;
+		float L_14;
+		L_14 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((0.400000006f), (1.0f), L_13, NULL);
+		NullCheck(L_12);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_12, L_14, NULL);
+	}
+
+IL_0083:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:299>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_15 = V_1;
+		NullCheck(L_15);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_16 = L_15->___glowRect;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_17;
+		L_17 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_16, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_17)
+		{
+			goto IL_00b6;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:301>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_18 = V_1;
+		NullCheck(L_18);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_19 = L_18->___glowRect;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		float L_21 = V_2;
+		float L_22;
+		L_22 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((1.20000005f), (1.60000002f), L_21, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
+		L_23 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_20, L_22, NULL);
+		NullCheck(L_19);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_19, L_23, NULL);
+	}
+
+IL_00b6:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:304>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_24 = V_1;
+		NullCheck(L_24);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_25 = L_24->___cardRect;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_26;
+		L_26 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_25, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_26)
+		{
+			goto IL_00fd;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:306>
+		float L_27 = __this->___U3CelapsedU3E5__2;
+		float L_28;
+		L_28 = sinf(((float)il2cpp_codegen_multiply(L_27, (3.0f))));
+		V_3 = ((float)il2cpp_codegen_multiply(L_28, (0.0199999996f)));
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:307>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_29 = V_1;
+		NullCheck(L_29);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_30 = L_29->___cardRect;
+		float L_31 = V_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_32;
+		L_32 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), (0.0f), ((float)il2cpp_codegen_multiply(L_31, (57.2957802f))), NULL);
+		NullCheck(L_30);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_30, L_32, NULL);
+	}
+
+IL_00fd:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:310>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_010d:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_0114:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:289>
+		float L_33 = __this->___U3CelapsedU3E5__2;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_34 = V_1;
+		NullCheck(L_34);
+		float L_35 = L_34->___celebrationDuration;
+		if ((((float)L_33) < ((float)L_35)))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:313>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_36 = V_1;
+		NullCheck(L_36);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_37 = L_36->___cardRect;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_38;
+		L_38 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_37, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_38)
+		{
+			goto IL_0143;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:315>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_39 = V_1;
+		NullCheck(L_39);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_40 = L_39->___cardRect;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_41;
+		L_41 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		NullCheck(L_40);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_40, L_41, NULL);
+	}
+
+IL_0143:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:317>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 65356
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCelebrationPhaseU3Ed__33_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4A57C229367BAD475D4ADCB1011071AEF32FFE87 (U3CCelebrationPhaseU3Ed__33_t7A2AF3975F0D9E5F780C0FE177EBECAA7E3DFD65* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 65357
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCelebrationPhaseU3Ed__33_System_Collections_IEnumerator_Reset_m327E34591CD7D8B6B25C25FB00A27A75E6FB5D24 (U3CCelebrationPhaseU3Ed__33_t7A2AF3975F0D9E5F780C0FE177EBECAA7E3DFD65* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCelebrationPhaseU3Ed__33_System_Collections_IEnumerator_Reset_m327E34591CD7D8B6B25C25FB00A27A75E6FB5D24_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 65358
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCelebrationPhaseU3Ed__33_System_Collections_IEnumerator_get_Current_m918D9E5043790378440F48ED83E3AD0CDF266816 (U3CCelebrationPhaseU3Ed__33_t7A2AF3975F0D9E5F780C0FE177EBECAA7E3DFD65* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65359
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGlowPulsePhaseU3Ed__31__ctor_m05059518636F7E8C1C08A3DA04CE162ED5099A4B (U3CGlowPulsePhaseU3Ed__31_t73071F363131BC47A2860C1B78ACB9EDDF351041* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 65360
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGlowPulsePhaseU3Ed__31_System_IDisposable_Dispose_m2EB7A9987A1BBE67F53CCFF8C714B4BA7D1B14B1 (U3CGlowPulsePhaseU3Ed__31_t73071F363131BC47A2860C1B78ACB9EDDF351041* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 65361
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGlowPulsePhaseU3Ed__31_MoveNext_mE6250D244126C1C741BB3EEAD5C9F2AF10F1B0B8 (U3CGlowPulsePhaseU3Ed__31_t73071F363131BC47A2860C1B78ACB9EDDF351041* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* V_1 = NULL;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0131;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_001a:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:213>
+		__this->___U3CelapsedU3E5__2 = (0.0f);
+		goto IL_0138;
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:216>
+		float L_4 = __this->___U3CelapsedU3E5__2;
+		float L_5;
+		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___U3CelapsedU3E5__2 = ((float)il2cpp_codegen_add(L_4, L_5));
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:217>
+		float L_6 = __this->___U3CelapsedU3E5__2;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_7 = V_1;
+		NullCheck(L_7);
+		float L_8 = L_7->___glowPulseDuration;
+		float L_9;
+		L_9 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(L_6/L_8)), NULL);
+		V_2 = L_9;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:218>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_10 = V_1;
+		NullCheck(L_10);
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_11 = L_10->___popCurve;
+		float L_12 = V_2;
+		NullCheck(L_11);
+		float L_13;
+		L_13 = AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C(L_11, L_12, NULL);
+		float L_14;
+		L_14 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((1.10000002f), (1.5f), L_13, NULL);
+		V_3 = L_14;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:220>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_15 = V_1;
+		NullCheck(L_15);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_16 = L_15->___glowRect;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_17;
+		L_17 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_16, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_17)
+		{
+			goto IL_0096;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:222>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_18 = V_1;
+		NullCheck(L_18);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_19 = L_18->___glowRect;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		float L_21 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_20, L_21, NULL);
+		NullCheck(L_19);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_19, L_22, NULL);
+	}
+
+IL_0096:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:225>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_23 = V_1;
+		NullCheck(L_23);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_24 = L_23->___glowGroup;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_25;
+		L_25 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_24, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_25)
+		{
+			goto IL_00bf;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:227>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_26 = V_1;
+		NullCheck(L_26);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_27 = L_26->___glowGroup;
+		float L_28 = V_2;
+		float L_29;
+		L_29 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((0.0f), (1.0f), L_28, NULL);
+		NullCheck(L_27);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_27, L_29, NULL);
+	}
+
+IL_00bf:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:230>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_30 = V_1;
+		NullCheck(L_30);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_31 = L_30->___podImage;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_32;
+		L_32 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_31, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_32)
+		{
+			goto IL_0121;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:232>
+		float L_33 = V_2;
+		float L_34;
+		L_34 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((0.300000012f), (1.0f), L_33, NULL);
+		V_4 = L_34;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:233>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_35 = V_1;
+		NullCheck(L_35);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_36 = L_35->___podImage;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_37 = V_1;
+		NullCheck(L_37);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_38 = L_37->___podImage;
+		NullCheck(L_38);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_39;
+		L_39 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_38);
+		float L_40 = L_39.___r;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_41 = V_1;
+		NullCheck(L_41);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_42 = L_41->___podImage;
+		NullCheck(L_42);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_43;
+		L_43 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_42);
+		float L_44 = L_43.___g;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_45 = V_1;
+		NullCheck(L_45);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_46 = L_45->___podImage;
+		NullCheck(L_46);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_47;
+		L_47 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_46);
+		float L_48 = L_47.___b;
+		float L_49 = V_4;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_50;
+		memset((&L_50), 0, sizeof(L_50));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_50), L_40, L_44, L_48, L_49, NULL);
+		NullCheck(L_36);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_36, L_50);
+	}
+
+IL_0121:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:236>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0131:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_0138:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:214>
+		float L_51 = __this->___U3CelapsedU3E5__2;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_52 = V_1;
+		NullCheck(L_52);
+		float L_53 = L_52->___glowPulseDuration;
+		if ((((float)L_51) < ((float)L_53)))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:238>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 65362
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGlowPulsePhaseU3Ed__31_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0255E7F5E8846B0C0FD72BBD7849121BBBFDECF4 (U3CGlowPulsePhaseU3Ed__31_t73071F363131BC47A2860C1B78ACB9EDDF351041* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 65363
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGlowPulsePhaseU3Ed__31_System_Collections_IEnumerator_Reset_mBB6B04FA6AC21B6EEFFF7A206B24E21F9F962B62 (U3CGlowPulsePhaseU3Ed__31_t73071F363131BC47A2860C1B78ACB9EDDF351041* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CGlowPulsePhaseU3Ed__31_System_Collections_IEnumerator_Reset_mBB6B04FA6AC21B6EEFFF7A206B24E21F9F962B62_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 65364
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGlowPulsePhaseU3Ed__31_System_Collections_IEnumerator_get_Current_m4B0687968ACE4FF2BD08AA980EBC40DDC3380F87 (U3CGlowPulsePhaseU3Ed__31_t73071F363131BC47A2860C1B78ACB9EDDF351041* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65365
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPlaySequenceU3Ed__29__ctor_m71BF8068057D05812CEDDEA112AFD7D58AE9949C (U3CPlaySequenceU3Ed__29_t1C34BD9D2AD8F83C95404F833D7C77FB68808553* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 65366
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPlaySequenceU3Ed__29_System_IDisposable_Dispose_m53030DA09D547F04C659D1931E683568E5BC795C (U3CPlaySequenceU3Ed__29_t1C34BD9D2AD8F83C95404F833D7C77FB68808553* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 65367
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CPlaySequenceU3Ed__29_MoveNext_mCD7A18E72BA015D3437E3FD14D7EB85B377A4091 (U3CPlaySequenceU3Ed__29_t1C34BD9D2AD8F83C95404F833D7C77FB68808553* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5BE74ECF994782615CDED8B7DA40F9256DD3710A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral70D5981C470BD149CEB65A8279500BC47BD4D0C2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7E66B5282F6A7EE7BF94813E162E0527AF8528BA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral87AA61C1405A20A9F3568999A232DBC87E329514);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_002a;
+			}
+			case 1:
+			{
+				goto IL_00c5;
+			}
+			case 2:
+			{
+				goto IL_00ff;
+			}
+			case 3:
+			{
+				goto IL_013f;
+			}
+			case 4:
+			{
+				goto IL_0179;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_002a:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:141>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_3 = V_1;
+		NullCheck(L_3);
+		L_3->___isPlaying = (bool)1;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:142>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_4 = V_1;
+		NullCheck(L_4);
+		GachaSequenceController_ResetVisualState_m3B5C9DDE2737BADD667E7D7EB31DD6E0349BA44F(L_4, NULL);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:144>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_5 = V_1;
+		NullCheck(L_5);
+		GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 L_6;
+		L_6 = GachaSequenceController_SelectReward_m7BF53314204878FB2306FD263F87B7D938A77942(L_5, NULL);
+		__this->___U3CrewardU3E5__2 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CrewardU3E5__2))->___name), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CrewardU3E5__2))->___rarity), (void*)NULL);
+		#endif
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:145>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_7 = V_1;
+		NullCheck(L_7);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_8 = L_7->___cardImage;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:147>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_10 = V_1;
+		NullCheck(L_10);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_11 = L_10->___cardImage;
+		GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95* L_12 = (GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95*)(&__this->___U3CrewardU3E5__2);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13 = L_12->___cardColor;
+		NullCheck(L_11);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_11, L_13);
+	}
+
+IL_006e:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:150>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_14 = V_1;
+		NullCheck(L_14);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_15 = L_14->___glowImage;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_16;
+		L_16 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_15, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_16)
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:152>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_17 = V_1;
+		NullCheck(L_17);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_18 = L_17->___glowImage;
+		GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95* L_19 = (GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95*)(&__this->___U3CrewardU3E5__2);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20 = L_19->___glowColor;
+		NullCheck(L_18);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_18, L_20);
+	}
+
+IL_0092:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:155>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_21 = V_1;
+		NullCheck(L_21);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_22 = L_21->___statusText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_23;
+		L_23 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_22, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_23)
+		{
+			goto IL_00b0;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:157>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_24 = V_1;
+		NullCheck(L_24);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = L_24->___statusText;
+		NullCheck(L_25);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_25, _stringLiteral87AA61C1405A20A9F3568999A232DBC87E329514);
+	}
+
+IL_00b0:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:160>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_26 = V_1;
+		NullCheck(L_26);
+		RuntimeObject* L_27;
+		L_27 = GachaSequenceController_WarmupPhase_m04F0BA8832D2AF0358E36F5301F5171039C69FE4(L_26, NULL);
+		__this->___U3CU3E2__current = L_27;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_27);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_00c5:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:162>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_28 = V_1;
+		NullCheck(L_28);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_29 = L_28->___statusText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_30;
+		L_30 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_29, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_30)
+		{
+			goto IL_00ea;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:164>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_31 = V_1;
+		NullCheck(L_31);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_32 = L_31->___statusText;
+		NullCheck(L_32);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_32, _stringLiteral7E66B5282F6A7EE7BF94813E162E0527AF8528BA);
+	}
+
+IL_00ea:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:167>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_33 = V_1;
+		NullCheck(L_33);
+		RuntimeObject* L_34;
+		L_34 = GachaSequenceController_GlowPulsePhase_m92538C8F2BCE196673B130FC8D8F7DCA81C53697(L_33, NULL);
+		__this->___U3CU3E2__current = L_34;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_34);
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_00ff:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:169>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_35 = V_1;
+		NullCheck(L_35);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_36 = L_35->___statusText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_37;
+		L_37 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_36, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_37)
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:171>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_38 = V_1;
+		NullCheck(L_38);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = L_38->___statusText;
+		NullCheck(L_39);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_39, _stringLiteral5BE74ECF994782615CDED8B7DA40F9256DD3710A);
+	}
+
+IL_0124:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:174>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_40 = V_1;
+		GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95 L_41 = __this->___U3CrewardU3E5__2;
+		NullCheck(L_40);
+		RuntimeObject* L_42;
+		L_42 = GachaSequenceController_RevealPhase_mB66AD261D601203F4CCE4FBB4970A1A799549B53(L_40, L_41, NULL);
+		__this->___U3CU3E2__current = L_42;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_42);
+		__this->___U3CU3E1__state = 3;
+		return (bool)1;
+	}
+
+IL_013f:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:176>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_43 = V_1;
+		NullCheck(L_43);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_44 = L_43->___statusText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_45;
+		L_45 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_44, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_45)
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:178>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_46 = V_1;
+		NullCheck(L_46);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = L_46->___statusText;
+		NullCheck(L_47);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_47, _stringLiteral70D5981C470BD149CEB65A8279500BC47BD4D0C2);
+	}
+
+IL_0164:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:181>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_48 = V_1;
+		NullCheck(L_48);
+		RuntimeObject* L_49;
+		L_49 = GachaSequenceController_CelebrationPhase_m5C3B8DA8595DA77B9532F4CFCF450A1B4120886F(L_48, NULL);
+		__this->___U3CU3E2__current = L_49;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_49);
+		__this->___U3CU3E1__state = 4;
+		return (bool)1;
+	}
+
+IL_0179:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:183>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_50 = V_1;
+		NullCheck(L_50);
+		L_50->___isPlaying = (bool)0;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:184>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 65368
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPlaySequenceU3Ed__29_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m958EE5668E28C63CF3F6FC1B7B2FE39E376752D4 (U3CPlaySequenceU3Ed__29_t1C34BD9D2AD8F83C95404F833D7C77FB68808553* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 65369
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPlaySequenceU3Ed__29_System_Collections_IEnumerator_Reset_m364BFFFA73D0E47EADB1BE6531E84058BAD3E3B6 (U3CPlaySequenceU3Ed__29_t1C34BD9D2AD8F83C95404F833D7C77FB68808553* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CPlaySequenceU3Ed__29_System_Collections_IEnumerator_Reset_m364BFFFA73D0E47EADB1BE6531E84058BAD3E3B6_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 65370
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPlaySequenceU3Ed__29_System_Collections_IEnumerator_get_Current_m81040D7930E067603D60AB44285868E1CA76D2FB (U3CPlaySequenceU3Ed__29_t1C34BD9D2AD8F83C95404F833D7C77FB68808553* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65371
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRevealPhaseU3Ed__32__ctor_m6CE997B6E53D9B67798CA79F58EB85176B29C242 (U3CRevealPhaseU3Ed__32_tBF84528ADE722ABB331B5EB6C13F0AC8CB7EA9DE* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 65372
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRevealPhaseU3Ed__32_System_IDisposable_Dispose_m4ED357AF59A05116544476E4E4A73C2A08205133 (U3CRevealPhaseU3Ed__32_tBF84528ADE722ABB331B5EB6C13F0AC8CB7EA9DE* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 65373
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRevealPhaseU3Ed__32_MoveNext_m040BFA18F934C8B4FD62499CC0986A5250C20C0F (U3CRevealPhaseU3Ed__32_tBF84528ADE722ABB331B5EB6C13F0AC8CB7EA9DE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* V_1 = NULL;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0022;
+			}
+			case 1:
+			{
+				goto IL_00fd;
+			}
+			case 2:
+			{
+				goto IL_01a3;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0022:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:242>
+		__this->___U3CelapsedU3E5__2 = (0.0f);
+		goto IL_0104;
+	}
+
+IL_0039:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:245>
+		float L_3 = __this->___U3CelapsedU3E5__2;
+		float L_4;
+		L_4 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___U3CelapsedU3E5__2 = ((float)il2cpp_codegen_add(L_3, L_4));
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:246>
+		float L_5 = __this->___U3CelapsedU3E5__2;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_6 = V_1;
+		NullCheck(L_6);
+		float L_7 = L_6->___revealDuration;
+		float L_8;
+		L_8 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(L_5/L_7)), NULL);
+		V_2 = L_8;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:247>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_9 = V_1;
+		NullCheck(L_9);
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_10 = L_9->___popCurve;
+		float L_11 = V_2;
+		NullCheck(L_10);
+		float L_12;
+		L_12 = AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C(L_10, L_11, NULL);
+		V_3 = L_12;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:249>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_13 = V_1;
+		NullCheck(L_13);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = L_13->___cardRect;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_15;
+		L_15 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_15)
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:251>
+		float L_16 = V_2;
+		float L_17;
+		L_17 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((1.20000005f), (0.980000019f), L_16, NULL);
+		V_4 = L_17;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:252>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_18 = V_1;
+		NullCheck(L_18);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_19 = L_18->___cardRect;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		float L_21 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_20, L_21, NULL);
+		float L_23 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
+		L_24 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_22, L_23, NULL);
+		NullCheck(L_19);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_19, L_24, NULL);
+	}
+
+IL_00a8:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:255>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_25 = V_1;
+		NullCheck(L_25);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_26 = L_25->___cardGroup;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_27;
+		L_27 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_26, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_27)
+		{
+			goto IL_00c2;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:257>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_28 = V_1;
+		NullCheck(L_28);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_29 = L_28->___cardGroup;
+		float L_30 = V_3;
+		NullCheck(L_29);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_29, L_30, NULL);
+	}
+
+IL_00c2:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:260>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_31 = V_1;
+		NullCheck(L_31);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_32 = L_31->___backgroundImage;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_33;
+		L_33 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_32, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_33)
+		{
+			goto IL_00ed;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:262>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_34 = V_1;
+		NullCheck(L_34);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_35 = L_34->___backgroundImage;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_36 = V_1;
+		NullCheck(L_36);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_37 = L_36->___chargeBackground;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_38 = V_1;
+		NullCheck(L_38);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_39 = L_38->___revealBackground;
+		float L_40 = V_3;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_41;
+		L_41 = Color_Lerp_mE79F87889843ECDC188E4CB5B5E1F1B2256E5EBE_inline(L_37, L_39, L_40, NULL);
+		NullCheck(L_35);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_35, L_41);
+	}
+
+IL_00ed:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:265>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_00fd:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_0104:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:243>
+		float L_42 = __this->___U3CelapsedU3E5__2;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_43 = V_1;
+		NullCheck(L_43);
+		float L_44 = L_43->___revealDuration;
+		if ((((float)L_42) < ((float)L_44)))
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:268>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_45 = V_1;
+		NullCheck(L_45);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_46 = L_45->___cardRect;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_47;
+		L_47 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_46, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_47)
+		{
+			goto IL_0133;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:270>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_48 = V_1;
+		NullCheck(L_48);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_49 = L_48->___cardRect;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50;
+		L_50 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		NullCheck(L_49);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_49, L_50, NULL);
+	}
+
+IL_0133:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:273>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_51 = V_1;
+		NullCheck(L_51);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_52 = L_51->___cardGroup;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_53;
+		L_53 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_52, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_53)
+		{
+			goto IL_0151;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:275>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_54 = V_1;
+		NullCheck(L_54);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_55 = L_54->___cardGroup;
+		NullCheck(L_55);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_55, (1.0f), NULL);
+	}
+
+IL_0151:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:278>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_56 = V_1;
+		NullCheck(L_56);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_57 = L_56->___rarityText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_58;
+		L_58 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_57, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_58)
+		{
+			goto IL_018a;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:280>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_59 = V_1;
+		NullCheck(L_59);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_60 = L_59->___rarityText;
+		GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95* L_61 = (GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95*)(&__this->___reward);
+		String_t* L_62 = L_61->___rarity;
+		GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95* L_63 = (GachaReward_tC175E77A2FAEEDCA9DB1A63DD5F6354A9E935A95*)(&__this->___reward);
+		String_t* L_64 = L_63->___name;
+		String_t* L_65;
+		L_65 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_62, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, L_64, NULL);
+		NullCheck(L_60);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_60, L_65);
+	}
+
+IL_018a:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:283>
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_66 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_66, (0.200000003f), NULL);
+		__this->___U3CU3E2__current = L_66;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_66);
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_01a3:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:284>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 65374
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRevealPhaseU3Ed__32_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m720029F628E30A8AF2DF5E050C1A0E4E687E4EF9 (U3CRevealPhaseU3Ed__32_tBF84528ADE722ABB331B5EB6C13F0AC8CB7EA9DE* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 65375
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRevealPhaseU3Ed__32_System_Collections_IEnumerator_Reset_m6AEE4E237B744E326AB4C69AE838D0917AEF5CFA (U3CRevealPhaseU3Ed__32_tBF84528ADE722ABB331B5EB6C13F0AC8CB7EA9DE* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CRevealPhaseU3Ed__32_System_Collections_IEnumerator_Reset_m6AEE4E237B744E326AB4C69AE838D0917AEF5CFA_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 65376
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRevealPhaseU3Ed__32_System_Collections_IEnumerator_get_Current_mAE900FBBCC13B638D6D9C2B581608A66F090D12A (U3CRevealPhaseU3Ed__32_tBF84528ADE722ABB331B5EB6C13F0AC8CB7EA9DE* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65377
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__26__ctor_m14F518E2ED6A37CDBBE63EBFACCBE320A83A0583 (U3CStartU3Ed__26_t040B2250A26E25A1BF372A87787D6C087A27D38E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 65378
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__26_System_IDisposable_Dispose_mB70FD46102401F6A4DED631E42F160099A7E81FA (U3CStartU3Ed__26_t040B2250A26E25A1BF372A87787D6C087A27D38E* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 65379
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartU3Ed__26_MoveNext_mEF026265BAA4A418A5B3B2CFF3C5376CAFB86314 (U3CStartU3Ed__26_t040B2250A26E25A1BF372A87787D6C087A27D38E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0022;
+			}
+			case 1:
+			{
+				goto IL_0042;
+			}
+			case 2:
+			{
+				goto IL_005e;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0022:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:78>
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_3 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_3, (0.400000006f), NULL);
+		__this->___U3CU3E2__current = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_3);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0042:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:79>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_4 = V_1;
+		NullCheck(L_4);
+		RuntimeObject* L_5;
+		L_5 = GachaSequenceController_PlaySequence_m6BA9A1CF447A7049D424098A9CB8429F1886E744(L_4, NULL);
+		__this->___U3CU3E2__current = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_5);
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_005e:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:80>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 65380
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartU3Ed__26_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBA3485C45EDDE493C5EAD5D4ACEBD42183B9E90F (U3CStartU3Ed__26_t040B2250A26E25A1BF372A87787D6C087A27D38E* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 65381
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__26_System_Collections_IEnumerator_Reset_mFB98B53FD6A49F54E0B8105F83F379FBE45CA24D (U3CStartU3Ed__26_t040B2250A26E25A1BF372A87787D6C087A27D38E* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartU3Ed__26_System_Collections_IEnumerator_Reset_mFB98B53FD6A49F54E0B8105F83F379FBE45CA24D_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 65382
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartU3Ed__26_System_Collections_IEnumerator_get_Current_m03F6D0E8DC34CEBD42181CD15F57BD961584F1AB (U3CStartU3Ed__26_t040B2250A26E25A1BF372A87787D6C087A27D38E* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65383
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWarmupPhaseU3Ed__30__ctor_m7C8E3E834BB89A5DD76EF4D21EDD2858D961CFF5 (U3CWarmupPhaseU3Ed__30_t4F559A88EFBF206C331BEAE2EEAD498408DE219E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 65384
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWarmupPhaseU3Ed__30_System_IDisposable_Dispose_m74803B0FFC9C8A9E92EA808323B31133B4F25C17 (U3CWarmupPhaseU3Ed__30_t4F559A88EFBF206C331BEAE2EEAD498408DE219E* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 65385
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWarmupPhaseU3Ed__30_MoveNext_mB7A520D59839C9D06762B2891EB0B36F33BACD0D (U3CWarmupPhaseU3Ed__30_t4F559A88EFBF206C331BEAE2EEAD498408DE219E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* V_1 = NULL;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_010a;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_001a:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:188>
+		__this->___U3CelapsedU3E5__2 = (0.0f);
+		goto IL_0111;
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:191>
+		float L_4 = __this->___U3CelapsedU3E5__2;
+		float L_5;
+		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___U3CelapsedU3E5__2 = ((float)il2cpp_codegen_add(L_4, L_5));
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:192>
+		float L_6 = __this->___U3CelapsedU3E5__2;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_7 = V_1;
+		NullCheck(L_7);
+		float L_8 = L_7->___warmupDuration;
+		float L_9;
+		L_9 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(L_6/L_8)), NULL);
+		V_2 = L_9;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:193>
+		float L_10 = V_2;
+		float L_11;
+		L_11 = Mathf_PingPong_mB1D6A10F386CE1EEA99DB69486DDA6DA531D799D_inline(((float)il2cpp_codegen_multiply(L_10, (3.0f))), (1.0f), NULL);
+		float L_12;
+		L_12 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((0.899999976f), (1.04999995f), L_11, NULL);
+		V_3 = L_12;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:195>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_13 = V_1;
+		NullCheck(L_13);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = L_13->___podRect;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_15;
+		L_15 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_15)
+		{
+			goto IL_00bc;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:197>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_16 = V_1;
+		NullCheck(L_16);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_17 = L_16->___podRect;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		L_18 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		float L_19 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_18, L_19, NULL);
+		NullCheck(L_17);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_17, L_20, NULL);
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:198>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_21 = V_1;
+		NullCheck(L_21);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_22 = L_21->___podRect;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_23 = V_1;
+		NullCheck(L_23);
+		float L_24 = L_23->___spinSpeed;
+		float L_25;
+		L_25 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		NullCheck(L_22);
+		Transform_Rotate_m7EA47AD57F43D478CCB0523D179950EE49CDA3E2(L_22, (0.0f), (0.0f), ((float)il2cpp_codegen_multiply(L_24, L_25)), NULL);
+	}
+
+IL_00bc:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:201>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_26 = V_1;
+		NullCheck(L_26);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_27 = L_26->___backgroundImage;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_28;
+		L_28 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_27, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_28)
+		{
+			goto IL_00fa;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:203>
+		float L_29 = V_2;
+		float L_30;
+		L_30 = Mathf_SmoothStep_mEFDC738EB0AA162D71013BDBBDD157B080A8E524_inline((0.0f), (1.0f), L_29, NULL);
+		V_4 = L_30;
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:204>
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_31 = V_1;
+		NullCheck(L_31);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_32 = L_31->___backgroundImage;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_33 = V_1;
+		NullCheck(L_33);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_34 = L_33->___baseBackground;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_35 = V_1;
+		NullCheck(L_35);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_36 = L_35->___chargeBackground;
+		float L_37 = V_4;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_38;
+		L_38 = Color_Lerp_mE79F87889843ECDC188E4CB5B5E1F1B2256E5EBE_inline(L_34, L_36, L_37, NULL);
+		NullCheck(L_32);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_32, L_38);
+	}
+
+IL_00fa:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:207>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_010a:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_0111:
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:189>
+		float L_39 = __this->___U3CelapsedU3E5__2;
+		GachaSequenceController_t9604A1F07614882522029E31A5DCDEEB46E1F5F4* L_40 = V_1;
+		NullCheck(L_40);
+		float L_41 = L_40->___warmupDuration;
+		if ((((float)L_39) < ((float)L_41)))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/Users/ryota/TestWebGL/Assets/Samples/GachaSample/GachaSequenceController.cs:209>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 65386
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWarmupPhaseU3Ed__30_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m373F655D85D3A3D71072692ACC234E6E99C95A8B (U3CWarmupPhaseU3Ed__30_t4F559A88EFBF206C331BEAE2EEAD498408DE219E* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 65387
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWarmupPhaseU3Ed__30_System_Collections_IEnumerator_Reset_m8C9455FD3E404CEA91792A0F42ED5142A5D74798 (U3CWarmupPhaseU3Ed__30_t4F559A88EFBF206C331BEAE2EEAD498408DE219E* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CWarmupPhaseU3Ed__30_System_Collections_IEnumerator_Reset_m8C9455FD3E404CEA91792A0F42ED5142A5D74798_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 65388
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWarmupPhaseU3Ed__30_System_Collections_IEnumerator_get_Current_m3BF0C3576B6E3E5BD841515CAA4B1946281BC75D (U3CWarmupPhaseU3Ed__30_t4F559A88EFBF206C331BEAE2EEAD498408DE219E* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 46711
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___oneVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 46738
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 46721
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), NULL);
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		return L_10;
+	}
+}
+// Method Definition Index: 46710
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 46589
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) 
+{
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (1.0f), (1.0f), (1.0f), (1.0f), NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 46562
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_r;
+		__this->___r = L_0;
+		float L_1 = ___1_g;
+		__this->___g = L_1;
+		float L_2 = ___2_b;
+		__this->___b = L_2;
+		__this->___a = (1.0f);
+		return;
+	}
+}
+// Method Definition Index: 46802
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_PingPong_mB1D6A10F386CE1EEA99DB69486DDA6DA531D799D_inline (float ___0_t, float ___1_length, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___0_t;
+		float L_1 = ___1_length;
+		float L_2;
+		L_2 = Mathf_Repeat_m6F1560A163481BB311D685294E1B463C3E4EB3BA_inline(L_0, ((float)il2cpp_codegen_multiply(L_1, (2.0f))), NULL);
+		___0_t = L_2;
+		float L_3 = ___1_length;
+		float L_4 = ___0_t;
+		float L_5 = ___1_length;
+		float L_6;
+		L_6 = fabsf(((float)il2cpp_codegen_subtract(L_4, L_5)));
+		V_0 = ((float)il2cpp_codegen_subtract(L_3, L_6));
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		float L_7 = V_0;
+		return L_7;
+	}
+}
+// Method Definition Index: 46796
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		float L_2 = ___0_a;
+		float L_3 = ___2_t;
+		float L_4;
+		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_3, NULL);
+		V_0 = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), L_4))));
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		float L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 46747
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		float L_0 = ___0_x;
+		float L_1 = ___1_y;
+		float L_2 = ___2_z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_3), L_0, L_1, L_2, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_3, (0.0174532924f), NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
+		L_5 = Quaternion_Internal_FromEulerRad_m66D4475341F53949471E6870FB5C5E4A5E9BA93E(L_4, NULL);
+		V_0 = L_5;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 46795
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 46561
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_r;
+		__this->___r = L_0;
+		float L_1 = ___1_g;
+		__this->___g = L_1;
+		float L_2 = ___2_b;
+		__this->___b = L_2;
+		float L_3 = ___3_a;
+		__this->___a = L_3;
+		return;
+	}
+}
+// Method Definition Index: 46572
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_Lerp_mE79F87889843ECDC188E4CB5B5E1F1B2256E5EBE_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_a, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		float L_0 = ___2_t;
+		float L_1;
+		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
+		___2_t = L_1;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2 = ___0_a;
+		float L_3 = L_2.___r;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ___1_b;
+		float L_5 = L_4.___r;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = ___0_a;
+		float L_7 = L_6.___r;
+		float L_8 = ___2_t;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = ___0_a;
+		float L_10 = L_9.___g;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11 = ___1_b;
+		float L_12 = L_11.___g;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13 = ___0_a;
+		float L_14 = L_13.___g;
+		float L_15 = ___2_t;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_16 = ___0_a;
+		float L_17 = L_16.___b;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18 = ___1_b;
+		float L_19 = L_18.___b;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20 = ___0_a;
+		float L_21 = L_20.___b;
+		float L_22 = ___2_t;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_23 = ___0_a;
+		float L_24 = L_23.___a;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_25 = ___1_b;
+		float L_26 = L_25.___a;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_27 = ___0_a;
+		float L_28 = L_27.___a;
+		float L_29 = ___2_t;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_30;
+		memset((&L_30), 0, sizeof(L_30));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_30), ((float)il2cpp_codegen_add(L_3, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_5, L_7)), L_8)))), ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_12, L_14)), L_15)))), ((float)il2cpp_codegen_add(L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_19, L_21)), L_22)))), ((float)il2cpp_codegen_add(L_24, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_26, L_28)), L_29)))), NULL);
+		V_0 = L_30;
+		goto IL_0069;
+	}
+
+IL_0069:
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_31 = V_0;
+		return L_31;
+	}
+}
+// Method Definition Index: 46798
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_SmoothStep_mEFDC738EB0AA162D71013BDBBDD157B080A8E524_inline (float ___0_from, float ___1_to, float ___2_t, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___2_t;
+		float L_1;
+		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
+		___2_t = L_1;
+		float L_2 = ___2_t;
+		float L_3 = ___2_t;
+		float L_4 = ___2_t;
+		float L_5 = ___2_t;
+		float L_6 = ___2_t;
+		___2_t = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply((-2.0f), L_2)), L_3)), L_4)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply((3.0f), L_5)), L_6))));
+		float L_7 = ___1_to;
+		float L_8 = ___2_t;
+		float L_9 = ___0_from;
+		float L_10 = ___2_t;
+		V_0 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_7, L_8)), ((float)il2cpp_codegen_multiply(L_9, ((float)il2cpp_codegen_subtract((1.0f), L_10))))));
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		float L_11 = V_0;
+		return L_11;
+	}
+}
+// Method Definition Index: 46690
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 46801
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Repeat_m6F1560A163481BB311D685294E1B463C3E4EB3BA_inline (float ___0_t, float ___1_length, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___0_t;
+		float L_1 = ___0_t;
+		float L_2 = ___1_length;
+		float L_3;
+		L_3 = floorf(((float)(L_1/L_2)));
+		float L_4 = ___1_length;
+		float L_5 = ___1_length;
+		float L_6;
+		L_6 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(((float)il2cpp_codegen_subtract(L_0, ((float)il2cpp_codegen_multiply(L_3, L_4)))), (0.0f), L_5, NULL);
+		V_0 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		float L_7 = V_0;
+		return L_7;
+	}
+}
+// Method Definition Index: 46793
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	{
+		float L_0 = ___0_value;
+		float L_1 = ___1_min;
+		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		float L_3 = ___1_min;
+		___0_value = L_3;
+		goto IL_0019;
+	}
+
+IL_000e:
+	{
+		float L_4 = ___0_value;
+		float L_5 = ___2_max;
+		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		float L_7 = ___2_max;
+		___0_value = L_7;
+	}
+
+IL_0019:
+	{
+		float L_8 = ___0_value;
+		V_2 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		float L_9 = V_2;
+		return L_9;
+	}
+}

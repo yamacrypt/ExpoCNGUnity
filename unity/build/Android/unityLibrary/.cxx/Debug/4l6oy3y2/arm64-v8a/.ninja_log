@@ -1,0 +1,14 @@
+# ninja log v5
+0	1171	1761748589596050973	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	8fccd7b0c0f59062
+2	1219	1761748589644052816	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	fc4c1d1d4bf9212e
+1	1287	1761748589716055579	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	f78de384cac032e7
+1	1356	1761748589788058342	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	e06a0e90576b2efb
+0	1376	1761748589808059110	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	ca0a62ad2181db70
+2	1390	1761748589820059570	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	4d48219f2f3a879b
+1	1532	1761748589964065096	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	3a7155ebfdb6863e
+0	1632	1761748590064068935	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	1492fb092edac45b
+1632	1662	1761748590100070316	/workspace/unity/build/Android/unityLibrary/build/intermediates/cxx/Debug/4l6oy3y2/obj/arm64-v8a/libgame.so	87f26c73b9766572
+3	28	1761748723388322101	/workspace/unity/build/Android/unityLibrary/build/intermediates/cxx/Debug/4l6oy3y2/obj/arm64-v8a/libgame.so	87f26c73b9766572
+3	31	1761748926063755775	/workspace/unity/build/Android/unityLibrary/build/intermediates/cxx/Debug/4l6oy3y2/obj/arm64-v8a/libgame.so	87f26c73b9766572
+17	274	1761793988181640280	/workspace/unity/build/Android/unityLibrary/build/intermediates/cxx/Debug/4l6oy3y2/obj/arm64-v8a/libgame.so	87f26c73b9766572
+2	60	1761795460923742877	/workspace/unity/build/Android/unityLibrary/build/intermediates/cxx/Debug/4l6oy3y2/obj/arm64-v8a/libgame.so	87f26c73b9766572

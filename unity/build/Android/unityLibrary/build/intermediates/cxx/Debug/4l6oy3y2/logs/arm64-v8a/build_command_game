@@ -1,0 +1,4 @@
+/opt/android-sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /workspace/unity/build/Android/unityLibrary/.cxx/Debug/4l6oy3y2/arm64-v8a \
+  game
