@@ -1,47 +1,46 @@
 {
-  // 必要なら残してOK。内部で古い値を持っていても、下の設定で上書きされます
   "extends": "@tsconfig/react-native/tsconfig.json",
-
   "compilerOptions": {
-    // ★ ここが一番重要（node10 非推奨の回避）
     "moduleResolution": "bundler",
-
-    // RN/Metro では ESNext が扱いやすい
     "module": "esnext",
     "target": "esnext",
-    "lib": ["esnext"],
-
-    // 既存のこだわりは維持
+    "lib": [
+      "esnext"
+    ],
     "strict": true,
     "noImplicitAny": true,
     "noEmit": true,
     "jsx": "react-jsx",
-
-    // 型精度とビルド速度のバランス
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "allowJs": true,
-
-    // v5+ 推奨の厳格化（副作用のない import だけ許可）
     "verbatimModuleSyntax": true,
-
-    // エイリアス
     "paths": {
-      "@/*": ["./src/*"],
-      "@/components/*": ["./src/components/*"],
-      "@/screens/*": ["./src/screens/*"],
-      "@/navigation/*": ["./src/navigation/*"],
-      "@/bridge/*": ["./src/bridge/*"],
-      "@/utils/*": ["./src/utils/*"],
-      "@/hooks/*": ["./src/hooks/*"]
-
-      // （任意）もし昔の「素のパス解決」を維持したいなら:
-      // "*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ],
+      "@/components/*": [
+        "./src/components/*"
+      ],
+      "@/screens/*": [
+        "./src/screens/*"
+      ],
+      "@/navigation/*": [
+        "./src/navigation/*"
+      ],
+      "@/bridge/*": [
+        "./src/bridge/*"
+      ],
+      "@/utils/*": [
+        "./src/utils/*"
+      ],
+      "@/hooks/*": [
+        "./src/hooks/*"
+      ]
     }
-
-    // もしどうしても古い依存が node10 を要求してくる場合の一時ミュート（任意）
-    // "ignoreDeprecations": "6.0"
   },
-
-  "include": ["App.tsx", "expo-env.d.ts", "src"]
+  "include": [
+    "App.tsx",
+    "src"
+  ]
 }
