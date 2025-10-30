@@ -1,9 +1,9 @@
 {
   "name": "oripa-pocket",
   "private": true,
-  "packageManager": "pnpm@10.20.0",
+  "packageManager": "yarn@1.22.22",
   "workspaces": [
-    "apps/*",
+    "app",
     "packages/*"
   ],
   "version": "1.0.0",

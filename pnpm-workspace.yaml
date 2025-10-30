@@ -1,6 +1,0 @@
-packages:
-  - app
-  - web
-  - packages/*
-
-nodeLinker: hoisted

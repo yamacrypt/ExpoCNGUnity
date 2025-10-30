@@ -33,7 +33,7 @@ RUN mkdir -p "$ANDROID_SDK_ROOT"/cmdline-tools \
 ENV PATH="$PATH:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/emulator:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin"
 
 RUN corepack enable \
-  && corepack prepare pnpm@10.20.0 --activate
+  && corepack prepare yarn@1.22.22 --activate
 
 WORKDIR /workspace
 
