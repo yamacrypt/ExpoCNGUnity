@@ -20,9 +20,6 @@ importers:
 
   app:
     dependencies:
-      '@azesmway/react-native-unity':
-        specifier: 1.0.11
-        version: 1.0.11(react-native@0.81.5(@babel/core@7.28.5)(@types/react@19.1.17)(react@19.1.0))(react@19.1.0)
       '@expo/vector-icons':
         specifier: ^15.0.3
         version: 15.0.3(expo-font@14.0.9(expo@54.0.21)(react-native@0.81.5(@babel/core@7.28.5)(@types/react@19.1.17)(react@19.1.0))(react@19.1.0))(react-native@0.81.5(@babel/core@7.28.5)(@types/react@19.1.17)(react@19.1.0))(react@19.1.0)
@@ -124,13 +121,6 @@ packages:
     peerDependenciesMeta:
       graphql:
         optional: true
-
-  '@azesmway/react-native-unity@1.0.11':
-    resolution: {integrity: sha512-2rANRnCgAvtUXzBCNvMO9M18WAe7BrDnDYL3FeFhHw/jW9NOKKWxJcEaBPHtl4yBTUy7DNU+V5Rl9QcstCgsMA==}
-    engines: {node: '>= 18.0.0'}
-    peerDependencies:
-      react: '*'
-      react-native: '*'
 
   '@babel/code-frame@7.10.4':
     resolution: {integrity: sha512-vG6SvB6oYEhvgisZNFRmRCUkLz11c7rp+tbNTynGqc6mS1d5ATd/sGyV6W0KZZnXRKMTzZDRgQT3Ou9jhpAfUg==}
@@ -4344,11 +4334,6 @@ packages:
 snapshots:
 
   '@0no-co/graphql.web@1.2.0': {}
-
-  '@azesmway/react-native-unity@1.0.11(react-native@0.81.5(@babel/core@7.28.5)(@types/react@19.1.17)(react@19.1.0))(react@19.1.0)':
-    dependencies:
-      react: 19.1.0
-      react-native: 0.81.5(@babel/core@7.28.5)(@types/react@19.1.17)(react@19.1.0)
 
   '@babel/code-frame@7.10.4':
     dependencies:

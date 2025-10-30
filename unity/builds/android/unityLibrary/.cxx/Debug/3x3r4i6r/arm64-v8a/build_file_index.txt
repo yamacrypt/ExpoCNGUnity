@@ -1,0 +1,2 @@
+/workspace/app/unity/builds/android/unityLibrary/src/main/cpp/CMakeLists.txt
+/workspace/app/unity/builds/android/unityLibrary/src/main/cpp/GameActivity/CMakeLists.txt

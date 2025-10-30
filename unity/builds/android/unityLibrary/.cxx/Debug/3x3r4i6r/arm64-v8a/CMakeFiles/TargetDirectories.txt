@@ -1,0 +1,5 @@
+/workspace/app/unity/builds/android/unityLibrary/.cxx/Debug/3x3r4i6r/arm64-v8a/CMakeFiles/edit_cache.dir
+/workspace/app/unity/builds/android/unityLibrary/.cxx/Debug/3x3r4i6r/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/workspace/app/unity/builds/android/unityLibrary/.cxx/Debug/3x3r4i6r/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/workspace/app/unity/builds/android/unityLibrary/.cxx/Debug/3x3r4i6r/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/workspace/app/unity/builds/android/unityLibrary/.cxx/Debug/3x3r4i6r/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
