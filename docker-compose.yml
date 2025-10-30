@@ -1,0 +1,44 @@
+version: '3.9'
+
+services:
+  mobile:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+      - android-gradle-cache:/root/.gradle
+      - pnpm-store:/root/.local/share/pnpm/store
+    ports:
+      - "8081:8081"
+      - "19000-19006:19000-19006"
+    environment:
+      - ANDROID_ADB_SERVER_ADDRESS=host.docker.internal
+      - ANDROID_ADB_SERVER_PORT=5037
+      - ANDROID_SDK_ROOT=/opt/android-sdk
+      - ANDROID_HOME=/opt/android-sdk
+      - JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+      - REACT_NATIVE_PACKAGER_HOSTNAME=${WINDOWS_LAN_IP:-}
+      # Metro を 0.0.0.0 で待受
+      - EXPO_DEV_SERVER_LISTEN_ADDRESS=0.0.0.0
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    command: bash -lc "tail -f /dev/null"
+
+  web:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+      - pnpm-store:/root/.local/share/pnpm/store
+    ports:
+      - "5173:5173"
+    command: >-
+      bash -lc "pnpm install --ignore-scripts && pnpm --filter expo-cng-unity-web run dev -- --host 0.0.0.0 --port 5173"
+
+volumes:
+  android-gradle-cache:
+  pnpm-store:

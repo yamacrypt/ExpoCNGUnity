@@ -1,0 +1,26 @@
+# Node
+node_modules/
+.pnp.*
+.pnpm-store/
+
+# Expo CNG generated native projects
+/app/ios
+/app/android
+
+# Expo / React Native artifacts
+.expo/
+.expo-shared/
+web-build/
+*.log
+.env
+
+# Package manager logs
+yarn-error.log
+pnpm-debug.log*
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
