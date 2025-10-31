@@ -6,6 +6,7 @@ import ParallaxScrollView from '@/components/parallax-scroll-view';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Link } from 'expo-router';
+import { UnityView } from '../../modules/unity-view';
 
 export default function HomeScreen() {
   return (
@@ -22,19 +23,14 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
-        <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({
-              ios: 'cmd + d',
-              android: 'cmd + m',
-              web: 'F12',
-            })}
-          </ThemedText>{' '}
-          to open developer tools.
-        </ThemedText>
+        <ThemedText type="subtitle">Unity Preview</ThemedText>
+        {Platform.OS === 'android' ? (
+          <UnityView style={styles.unityView} />
+        ) : (
+          <ThemedText>
+            Unity rendering is only available when running the Android development build.
+          </ThemedText>
+        )}
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <Link href="/modal">
@@ -87,6 +83,11 @@ const styles = StyleSheet.create({
   stepContainer: {
     gap: 8,
     marginBottom: 8,
+  },
+  unityView: {
+    borderRadius: 16,
+    overflow: 'hidden',
+    height: 320,
   },
   reactLogo: {
     height: 178,

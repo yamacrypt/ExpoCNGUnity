@@ -1,0 +1,13 @@
+{
+  "name": "unity-view",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "types": "index.ts",
+  "source": "index.ts",
+  "react-native": "index.ts",
+  "sideEffects": false,
+  "private": true,
+  "dependencies": {
+    "expo-modules-core": "*"
+  }
+}
