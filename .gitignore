@@ -24,3 +24,6 @@ pnpm-debug.log*
 # Editor
 .vscode/
 .idea/
+
+web/dist/
+web/public/unity
