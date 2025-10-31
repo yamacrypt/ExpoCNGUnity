@@ -1,0 +1,9 @@
+{
+  "name": "expo-cng-unity-web",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter app run web --",
+    "build": "pnpm --filter app run export:web",
+    "preview": "node ./scripts/preview.mjs"
+  }
+}
