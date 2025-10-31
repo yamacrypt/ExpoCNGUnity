@@ -1,0 +1,17 @@
+plugins {
+  id 'com.android.library'
+  id 'org.jetbrains.kotlin.android'
+  id 'expo-module-gradle-plugin'
+}
+
+android {
+  namespace "expo.modules.unityview"
+  defaultConfig {
+    minSdkVersion 23
+  }
+}
+
+dependencies {
+  implementation 'com.facebook.react:react-android'
+  implementation project(':unityLibrary')
+}
