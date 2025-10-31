@@ -35,9 +35,11 @@ services:
       - .:/workspace
       - pnpm-store:/root/.local/share/pnpm/store
     ports:
-      - "5173:5173"
+      - "5173:19006"
+    environment:
+      - EXPO_DEV_SERVER_LISTEN_ADDRESS=0.0.0.0
     command: >-
-      bash -lc "pnpm install --ignore-scripts && pnpm --filter expo-cng-unity-web run dev -- --host 0.0.0.0 --port 5173"
+      bash -lc "pnpm install --ignore-scripts && pnpm --filter expo-cng-unity-web run dev"
 
 volumes:
   android-gradle-cache:

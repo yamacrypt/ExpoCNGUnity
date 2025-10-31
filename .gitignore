@@ -11,6 +11,7 @@ node_modules/
 .expo/
 .expo-shared/
 web-build/
+web/dist/
 *.log
 .env
 
