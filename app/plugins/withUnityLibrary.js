@@ -6,7 +6,7 @@ const {
 
 const INCLUDE_LINE = "include ':unityLibrary'";
 const PROJECT_LINE =
-  "project(':unityLibrary').projectDir=new File('..\\\\unity\\\\builds\\\\android\\\\unityLibrary')";
+  "project(':unityLibrary').projectDir=new File('..\\\\..\\\\unity\\\\builds\\\\android\\\\unityLibrary')";
 const DEPENDENCY_LINE = "implementation project(':unityLibrary')";
 
 function ensureLine(contents, line) {
